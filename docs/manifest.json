@@ -1,0 +1,1721 @@
+{
+  "sitemap": {
+    "baseUrl": "https://gdx.dotbunny.com/",
+    "changefreq": "monthly",
+    "priority": 0.1
+  },
+  "homepages": [],
+  "source_base_path": "C:/Workspaces/dotBunny_GDX.Tests/Projects/000_Development/Assets/com.dotbunny.gdx/.docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.AddressablesExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.AddressablesExtensions.html",
+          "hash": "AIFhtOKMlQ9yRnv0zBQSDalm5OrrkEmP4jqmXPMqM4o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Array2DExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Array2DExtensions.html",
+          "hash": "8ThheK219Vr9H/5UADClZOBbtREqU4x4gFdRAviQMrI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.ArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.ArrayExtensions.html",
+          "hash": "4ADJo6FXsQNCvU4XeUk+5WgiM/+fwkwcRREzU5Qnz10="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.BoxColliderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.BoxColliderExtensions.html",
+          "hash": "SFmh/oOR3TYyXiLFS+aTE3VVEYJ/1rm6UtXbvi2BwRM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.ByteExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.ByteExtensions.html",
+          "hash": "+pkqHOzNsJjfKSIVU9dsK1qGoQJePbFPOR4r2hrjUEw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.CapsuleColliderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.CapsuleColliderExtensions.html",
+          "hash": "TB65rV1q8kDCFg7XA+gH32JxfCX5Sa7qe65Awm3upis="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.BitArray128.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.BitArray128.html",
+          "hash": "ihvZn8b1kkI0mCCGnWnYyJiM8rfGuA3uIK1X0hIrA1o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.BitArray16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.BitArray16.html",
+          "hash": "+ua1619WonbjY08sthDbzKIGFGlo2ceONXvDsmVIMes="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.BitArray256.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.BitArray256.html",
+          "hash": "/emHgevsl21Uvssp1M/UTygms/jzIpBAMZ3pY+lutcc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.BitArray32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.BitArray32.html",
+          "hash": "3/2pKc5WxTMOVwkUxnIRqF4liah+TyA7K6KwFaXkRV4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.BitArray512.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.BitArray512.html",
+          "hash": "l9W7WGojJLsUQ2nzy66UYL4nHZ+kT9zfXRGvDgy5Yu0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.BitArray64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.BitArray64.html",
+          "hash": "UGIxdF2FXqKKHtbXqyUKrIjZvuucOoV3+DplncALwKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.BitArray8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.BitArray8.html",
+          "hash": "T9CtYsxqlEoDSB3qo+MwtBXZc9XesG1w4BRTyp6dR54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.FreeList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.FreeList.html",
+          "hash": "jRgPaHbURsG2eo0JCy6/qnZlh/W+cfgpas8obYyl6GM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.Array2D-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.Array2D-1.html",
+          "hash": "JAiOLKMr7LHeS8NID1+aEFS+gnRFqyX/ORApwy5gC2g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.CircularBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.CircularBuffer-1.html",
+          "hash": "Mu+HbW9Uk/R99J9fL8HFKsZto8cOniJWJvs8PTvXKXE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.NativeArray2D-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.NativeArray2D-1.html",
+          "hash": "IWqp6VUCMrrbajbanVFzR13ro37o3btV/KvDdzuTkqs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.NativeSimpleList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.NativeSimpleList-1.html",
+          "hash": "CVUzodQDioA+beDtGm/9MIuo43UDcmsPwBvR9ej1py8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.NativeSimpleQueue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.NativeSimpleQueue-1.html",
+          "hash": "y+kgswam8pgcXlQGQymY3pyR5LD9cIKnEj7gNdWij1U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.NativeUniformArray3D-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.NativeUniformArray3D-1.html",
+          "hash": "kqEHiW+yPg8tJHPD5kExUbf2GdKCZG3iG+0N16GSmhs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.SerializableDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.SerializableDictionary-2.html",
+          "hash": "MnVYKEl2CqH38gUfbAkjyJp1hy2NnVPah7US+1U5N7c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.SimpleList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.SimpleList-1.html",
+          "hash": "BJw3iVJ6XwySOFAvEkgvq4lAc8ATNFXhRxpHFCzT7VM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.html",
+          "hash": "WqU98sSI/o4pgCZgi1zzntwFZgVYipb5JiKkIAJP9b0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.NativeSparseSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.NativeSparseSet.html",
+          "hash": "rkgwjBtH9DXEo9d3AN40YNjtF3FOPwihKHv2l7kuNGA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Pooling.ArrayPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Pooling.ArrayPool-1.html",
+          "hash": "GCgR6Dp6FIrT//E/CV7BgO0yGVHLEaYMIjJEc/rC0QQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Pooling.GameObjectPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Pooling.GameObjectPool.html",
+          "hash": "qDo8yTl+kqMSLQwEbn635dMdE6t8cYwQLdYxFKj2wk0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Pooling.IGameObjectPoolItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Pooling.IGameObjectPoolItem.html",
+          "hash": "LjAdcw1Ru5T9gA2Iw76EJuvKViUvRQwrxS8e6ylaUUQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Pooling.IManagedPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Pooling.IManagedPool.html",
+          "hash": "YJEx5u8WZEVsKCdYO71CuL2hm20nQGhPcFlWXumycns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Pooling.JaggedArrayWithCount-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Pooling.JaggedArrayWithCount-1.html",
+          "hash": "mHXIdXCyXDFMRrbyYPbkMf21w7/Ik/CmQUsKrw2y2ok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Pooling.ListManagedPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Pooling.ListManagedPool.html",
+          "hash": "7TsFMLWKHFVAFyna2YTN5q6OUiqNFB7vIjbysnF/ZSU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Pooling.ManagedPoolBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Pooling.ManagedPoolBuilder.html",
+          "hash": "qT3bSuWeFiBlMwlU6inY/VK311g1D512mVLZawBL9O0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Pooling.ManagedPools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Pooling.ManagedPools.html",
+          "hash": "lKj/J8SYj/260ADk4INjflsVYJMcKHgGMXR1yxplm1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Pooling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Pooling.html",
+          "hash": "FkRBI4qThDZLrjTAKWXFTBp10hV6ijVQfZHQ+BzguOg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.SparseSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.SparseSet.html",
+          "hash": "lQWV/fOxb8QQ7wQx5+1PH6Vi+uZ8YOim57+wxpuCqQA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.html",
+          "hash": "1wubDzZ4hVoX28vjfNukqaBmVsoJbw/EGf1ras3QBwE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.CommandLineParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.CommandLineParser.html",
+          "hash": "MENRKGJDYLc5TeyO/oZSqzveCeMGbtGw526/ki02y8Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Conditionals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Conditionals.html",
+          "hash": "PyoWINxp5YCkaGmy/KxvDuUEdStjYxdT5L65VQDgbeQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Objects.AssetBundleObjectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Objects.AssetBundleObjectInfo.html",
+          "hash": "xLAKfSJtWt0umEzdLSkJV8ipEFVZwFy70RIa8fZ51/s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Objects.MeshObjectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Objects.MeshObjectInfo.html",
+          "hash": "iZI57jqtuBuzzTJBUeG8QKYuldM4CnelP+1x01iLCtA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Objects.ObjectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Objects.ObjectInfo.html",
+          "hash": "KuoTSaPyMyKmMf78aFiljZ4TCG6FFGU5TjvqxrOGHHI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Objects.ObjectInfoFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Objects.ObjectInfoFactory.html",
+          "hash": "ICXbTFEOM/EDiM+S0iAnxmofGpXzwscb5K+ZPlv/SXc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Objects.ShaderObjectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Objects.ShaderObjectInfo.html",
+          "hash": "vLXPhPN0q+wCdSGAW9yhlDRi0W7vY5DIchGfvmB9rfI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Objects.TextureObjectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Objects.TextureObjectInfo.html",
+          "hash": "s3WUgCBfQKMYJBMVeXCQiAXolyuDXsemB4RQgsA3hQE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Objects.html",
+          "hash": "tjfRGpspv+hfEQdPyCifooXlcSnrT2KwmAFJYkOHu+c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Report.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Report.html",
+          "hash": "Uq9kQFcZeuUNEMm9akSAEL1hhttir10GVPcNLB5qqyY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.ReportContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.ReportContext.html",
+          "hash": "ZNk2kt+pmCogxzTVznT7m5nVWSrPSNEb5bERN09uWGY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.ResourcesAudit.ResourcesQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.ResourcesAudit.ResourcesQuery.html",
+          "hash": "gQtUWYzRh3r9kgLFLj3V5oPKVZsAdgUhmNj+R4aHU1k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.ResourcesAudit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.ResourcesAudit.html",
+          "hash": "d9CNgXutV50CxJL001CrSF213UJU3gjbwoHPi9rf5sk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.ResourcesDiff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.ResourcesDiff.html",
+          "hash": "FcqAWWtc9ztcRt5t4YC5NR879DRXPdoDbGG9gdC49zM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Sections.ApplicationSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Sections.ApplicationSection.html",
+          "hash": "krBsbAAhNTCVMzNzK+Kj9cz7jsuKUg7FVU3jFI3SXS4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Sections.MemoryDiffSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Sections.MemoryDiffSection.html",
+          "hash": "yLGc4RnxT+du/uHdn2AFKVoya4a/2albsJt0c1egxKM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Sections.MemorySection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Sections.MemorySection.html",
+          "hash": "i4RuA2WKa5kTZoT7lfStier/4/fnFdqAGSo7ak9ZnVw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Sections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Sections.html",
+          "hash": "GCLIqId1R8MQILYWJGB4bXbRFM5VxL8+imbOP8wdlF4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.html",
+          "hash": "Ytx8QVe1sW2gsyomE495Qsv0vBUtWSblj9E1H4NnfU8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.html",
+          "hash": "xFq3VggphoZ1/l4IotOehoqKQ79g1T4CvouIfkW0J00="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Display.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Display.html",
+          "hash": "A7b2ESZqGD0Ehq2st86vTJYLwoHggQms+omFZxpcKHY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.Automation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.Automation.html",
+          "hash": "vOSwp2kgnCfv9W36vZqg17YtbGviwnKdrslX7y279Lo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.Build.BuildInfoProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.Build.BuildInfoProvider.html",
+          "hash": "QJIONYhD/0EVOsmqhFp6IAw2A9Z5n86dhLf+5VOCxbk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.Build.Classic.BuildInfoBuildCustomizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.Build.Classic.BuildInfoBuildCustomizer.html",
+          "hash": "UYm6M7h6vu+UIdgoL7Rp/0uihLtwmJHtEbvbs7knUSk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.Build.Classic.ScriptingDefinesBuildCustomizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.Build.Classic.ScriptingDefinesBuildCustomizer.html",
+          "hash": "4alNVvlu7aPShaaj0rXJDGqrcjBUWn0pJCy2/L84ttQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.Build.Classic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.Build.Classic.html",
+          "hash": "3OYcQjmJXmGFIZeMo96Uvg6r1vVc+GqTznz365p68z0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.Build.Legacy.BuildInfoBuildProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.Build.Legacy.BuildInfoBuildProcessor.html",
+          "hash": "skgviLrBwEfsvpuOdDdEs6CSvCilZFUW+P5izJni90M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.Build.Legacy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.Build.Legacy.html",
+          "hash": "VbBndgEGcBzggjzwcq63r1cw3DjDxmm7em7Av3iCpi8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.Build.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.Build.html",
+          "hash": "Pfe8AaRqcoZ9zJriQoOxMNz++Rf+MxQlmDIiVPHBl7k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.ManifestEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.ManifestEntry.html",
+          "hash": "4QhXGwPYLRsZhojOTTn2Ynpv2Vnb/5fuLYvQvCov870="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.ProjectSettings.SettingsLayoutOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.ProjectSettings.SettingsLayoutOptions.html",
+          "hash": "zSTSfCtffXj2bMcK1lKT44KQblUYRVkD3lqc7cXlS9Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.ProjectSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.ProjectSettings.html",
+          "hash": "1ARpPQPK1Jd+3dj+JC+KXHUUUgAh7mj1scmAdt+U9fk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.PropertyDrawers.DisableInInspectorAttributePropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.PropertyDrawers.DisableInInspectorAttributePropertyDrawer.html",
+          "hash": "calkpRi7TWUDmCqd1mamxtpLnVUdXO8kOpHorjL+ijY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.PropertyDrawers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.PropertyDrawers.html",
+          "hash": "EgQK2981pta1kbwBOfoIPqbLRX2XfSawXMx49cWC0+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.VersionControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.VersionControl.html",
+          "hash": "GYdh/SK7pl7kxXhG4HHiK3WUQfaIHwJufyv9D5lo36s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.html",
+          "hash": "RTEPLZFCcKks3yhJiZ+BxAQzp9mkeSLEDWt/s2dseGA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.EnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.EnumExtensions.html",
+          "hash": "h0Y2RYLc7OnRaSGqnDfp0utfcYYxT+/eZkcus7iv778="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.GameObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.GameObjectExtensions.html",
+          "hash": "kTT6wr+yWXittB2PgBM1FU/yWrIw1yezaC868mPpvRY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.IListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.IListExtensions.html",
+          "hash": "CuD43SijR4Vl2zPwAAl9AvtHSb+w8vU31Cg5ztyJVRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.IO.Compression.TarFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.IO.Compression.TarFile.html",
+          "hash": "QJk3NbT1U6Dq9Fj3whGByUvp7Z/TDBBl3fLHE5Yo+qA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.IO.Compression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.IO.Compression.html",
+          "hash": "gMHTb54JH//HUPQ8Ao+3+2MbJVhLL1OLxiXFDV/KwpY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Jobs.ParallelFor.IntegerBufferCopyJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Jobs.ParallelFor.IntegerBufferCopyJob.html",
+          "hash": "y/ANz6WwH3Ul4J86zoWMNe68xxd4WeGo18YgbTzpcYE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Jobs.ParallelFor.IntegerBufferFillJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Jobs.ParallelFor.IntegerBufferFillJob.html",
+          "hash": "Meyml25vO/vccRxv4hVEnPn3H0W1Fz/2KSS9tTij7IE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Jobs.ParallelFor.IntegerBufferSwapJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Jobs.ParallelFor.IntegerBufferSwapJob.html",
+          "hash": "lpuPF11sDKJqiqwFqGHRmWjERiCXeqNgeHHRLmWf7uk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Jobs.ParallelFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Jobs.ParallelFor.html",
+          "hash": "wr7r8brtBiBYEbJSSS2LqWKiQ0a6uzVkOFbq06uP+QY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Localization.Language.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Localization.Language.html",
+          "hash": "jdLnuDcNWu0a0Yr5meO5rhTi/9j64n+Vk9otLcPvPu0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Localization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Localization.html",
+          "hash": "xFawzrFeEouPioZNqDluhiK3qmfaPjVwd7xxAOlo49c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.Byte2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.Byte2.html",
+          "hash": "cZj/xz7mYcNGgtYf8gS1FcX8+xzNCWJqwsnr49bJOj4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.FibonacciHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.FibonacciHash.html",
+          "hash": "GgGRvYpqTQuXkvc7GAEf+iHts8VKx/TdnMlz0mDLlh8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.LongDoubleConversionUnion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.LongDoubleConversionUnion.html",
+          "hash": "UrqvRMr6PNn5Fk+o3ztCshuqwp7iiGohamj0v4F9tJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.Random.IRandomProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.Random.IRandomProvider.html",
+          "hash": "RhueNtld2AoAHLs+JAWT/tp9amHFq5CMnL2Vpz+UgwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.Random.RandomAdaptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.Random.RandomAdaptor.html",
+          "hash": "hEN+irAO5JE+JCtStLrFM/SrLiO9YLDhHuwbUPUA5dU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.Random.WELL1024a.WellState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.Random.WELL1024a.WellState.html",
+          "hash": "rTN6k3piin0uxK4TDevDPimDJzvoJJm4zUWAWdnWCLs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.Random.WELL1024a.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.Random.WELL1024a.html",
+          "hash": "9fn2Shg36EFW1K6HvLy2kgiwjhIUV+sh3J2pegWaYuM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.Random.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.Random.html",
+          "hash": "XxmccbnrTCGhzopHE2CEUGJSrMjaOGpMeC3SS+mkoKE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.Range.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.Range.html",
+          "hash": "Wyb1Edc+mXUEPmplPWUCF/7ySIx8J6JHzWVfSnZ9Bw4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.Rotate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.Rotate.html",
+          "hash": "YD9xAbEKaHSeAqraIk0avPPyMz5qfbUK9pjsyGe13Eo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.Smooth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.Smooth.html",
+          "hash": "+8MM5tlsoyDhhsWfu0RLnhirHVliJe/Gr6iLXEk+nT8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.html",
+          "hash": "pH/vjmPjCDa17Wy2O8kJ81bJyETZbExYsnMXKQ8AkIM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Memory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Memory.html",
+          "hash": "77enThwLFBzvbn71Lyr6505zKYxXBsojjUBCWXDzu1Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.MeshExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.MeshExtensions.html",
+          "hash": "W+5wT3ugotF7tg29ehM0OEfaAjQNZnEx7c0YsLgJwu4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.MonoBehaviourExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.MonoBehaviourExtensions.html",
+          "hash": "Qa1eJaNTv0ukaAUaDySsNtv2T5ik1g4Tey3PePwo6mw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.NavMeshPathExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.NavMeshPathExtensions.html",
+          "hash": "zTv5BcOtrErGdlpNoxvJrav/8kithwvIwGo8RZJqn8A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Platform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Platform.html",
+          "hash": "Yz3JZKTQ9kwejVrQ50o1dMZ3xw38+OheLZnF8opu7q0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.RigidbodyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.RigidbodyExtensions.html",
+          "hash": "iBMUDP80dTogZgC8T452tr1FmeFabNYkV2EOhswfCPI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.SemanticVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.SemanticVersion.html",
+          "hash": "dx9TQ3rSAcGjxF49n8Z2k7wkeTc+Ush2q5T5Gdok2CA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.SimpleListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.SimpleListExtensions.html",
+          "hash": "/CPdXr6stzY3Sg7eu9RD45sRavDB+yfirCyELx7ZT90="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.StringExtensions.html",
+          "hash": "mhlw+N8KGwLG+Lc3iud0odLePWL75eZ7Tg1+xtnziNM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Trace.TraceLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Trace.TraceLevel.html",
+          "hash": "fxGcMHPEsTgFfQwO8X0bembVfJeP5zt67R5wHUSbJOA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Trace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Trace.html",
+          "hash": "rhPDCpyKA6Kx4qqqZfPe+mGwkChg1qmo1l+PzMEg7D8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.TransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.TransformExtensions.html",
+          "hash": "U3cSfmMyDeO3NkEnWPapNC6YiNeMvlPYT2sD44UNULM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.TransientReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.TransientReference.html",
+          "hash": "sM8cmyKxrQIJ4JhNshzJMWLqT6t5+Ks9WLj3p2YkIzA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Vector2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Vector2Extensions.html",
+          "hash": "eoW8HPJfI5+JsdWnUQiOZyIW+WSEBlPNwW9xyLFppWw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Vector3Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Vector3Extensions.html",
+          "hash": "91umHl7iUz1HzC6aLUqKl5x8/MGx6bGpJVsHthLP1es="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.html",
+          "hash": "X1wnQ5EAxFYOZaA/iKv+N+9DQfl9RiBxay8sgI1LXgc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "m0uuQ6iZc334ZfVtN+GIrZdtIi9oyMPX96T4Sa9ZHfg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "0g7A+xBvGxaAnIAZERhuulDLkQfLIXyKgwxKLXM1NXA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog.html",
+          "hash": "gXm8gm0L4gMy+canHYiP9hTEFt+bjly/0VYKzCZ51io="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/home/gdx-banner.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/home/gdx-banner.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/manual/contributing/documentation/nuget-task.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/manual/contributing/documentation/nuget-task.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/manual/features/serializable-dictionary/overview.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/manual/features/serializable-dictionary/overview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/manual/features/serializable-dictionary/string-prefab.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/manual/features/serializable-dictionary/string-prefab.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/manual/features/visual-scripting/bolt-setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/manual/features/visual-scripting/bolt-setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/manual/getting-started/gdx-config.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/manual/getting-started/gdx-config.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/manual/getting-started/upm-gdx-github.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/manual/getting-started/upm-gdx-github.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "q0KHQLjdHi7RqOyUPFQk2RePGzPVcfKheW2YRJOdhxw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license.md",
+      "output": {
+        ".html": {
+          "relative_path": "license.html",
+          "hash": "+K93bJUw8q8O6ugVaoIzElehel10gehzZf8cmiZWvG8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/contributing.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/contributing.html",
+          "hash": "H3KU56dBY0EP0bYiTXaccW6Zx+EqnViprrJv3gFEUis="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/contributing/code-of-conduct.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/contributing/code-of-conduct.html",
+          "hash": "WvWjR3CtKUGTTytdyEedkfbi07Bbju+QrJaL74C+DJ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/contributing/design-guidelines.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/contributing/design-guidelines.html",
+          "hash": "/oqTtPQ3q0UOs8cOIUJ6tpxNrJS0Ih0pkQDZwPIFgBY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/contributing/documentation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/contributing/documentation.html",
+          "hash": "okjWHviAV9/5iCSfAwPgw9WBlQTm+cWZX1m7+RKZ5Rw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/faq.html",
+          "hash": "zWftvq2GGzO2FKGfCAN0iivxPW0OZJqUOhGt0s+zIGs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/features.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/features.html",
+          "hash": "YvdW7p862lMlUC7yDpOijELUJK3OHRyo7uIGKMWwsKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/features/serializable-dictionary.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/features/serializable-dictionary.html",
+          "hash": "pvHjnFw/M83yLYSa7DzHxblL2fS0Z8GBPXU2Ep7hQcI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/features/visual-scripting.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/features/visual-scripting.html",
+          "hash": "vyIxtYaT8BcXIsJJmGzvrOCTWufLrcNITF0XPdArrKo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting-started.html",
+          "hash": "qh26xOuCLB57tb6HFR2ZZ4SHhzqM9ucPukirrvX7e9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/requirements.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/requirements.html",
+          "hash": "yL4hBYdafjjtNmgF5Ex+YTzPD0Y9RkVGA0z+Q8biSAw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/security.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/security.html",
+          "hash": "HpGbv7v8EYjYCWT8GLDt9r99VRBsY7z6gCMT2R04oZw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "FGvddEIZbOIHwRJEFbANUGD9dcY622hqROvhq0nOxlQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "styles/main.css",
+      "output": {
+        "resource": {
+          "relative_path": "styles/main.css"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "vGGxGKeg7h0Ny/+23Xg+U9arkd6oxEk0++2mwa0b9kU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 15,
+          "skipped_file_count": 15
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 110,
+          "skipped_file_count": 110
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

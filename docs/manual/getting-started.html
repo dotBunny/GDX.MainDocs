@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Getting Started | GDX </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Getting Started | GDX ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="getting-started">Getting Started</h1>
+
+<h2 id="installation">Installation</h2>
+<p>There are many options to getting <code>GDX</code> into your project; each comes with its benefits and drawbacks.</p>
+<h3 id="unity-package-manager">Unity Package Manager</h3>
+<p>Installing via the package manager system (UPM) in Unity will provide an immutable (unable to be modified) copy of the package inside of your project.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>There are two available UPM methods. You only need to <strong>pick one</strong>!</p>
+</div>
+<h4 id="upm-package-manager-window">UPM: Package Manager Window</h4>
+<p><img src="/images/manual/getting-started/upm-gdx-github.gif" alt="UPM Git">
+The simplest and most straight forward method is to use Unity's built in workflow, once you have found and opened the <strong>Package Manager</strong> window (<strong>Window &gt; Package Manager</strong>), follow these steps:</p>
+<ol>
+<li>Find the <strong>+</strong> button in the upper left portion of the <strong>Package Manager</strong> window, clicking it should reveal a dropdown menu.</li>
+<li>Select <strong>Add package from git URL...</strong></li>
+<li>In the presented text field, enter: <code>https://github.com/dotBunny/GDX.git</code></li>
+<li>After entering the URL, click <strong>Add</strong>.</li>
+</ol>
+<h4 id="upm-package-manifest">UPM: Package Manifest</h4>
+<p>The above workflow provides a user interface for your project's <code>manifest.json</code> file. Alternatively,  you can enter the necessary line into that file manually by opening <code>Packages/manifest.json</code> in a text editor and adding the dependency your self:</p>
+<pre><code>{
+  &quot;dependencies&quot;: {
+    &quot;com.dotbunny.gdx&quot;: &quot;https://github.com/dotBunny/GDX.git&quot;,
+  }
+}
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You can also include branches or releases with this method by appending <code>#branch</code> to the end of the definition. Check out Unity's <a href="https://docs.unity3d.com/Manual/upm-git.html">UPM</a> page for more details.</p>
+</div>
+<h3 id="asset-store">Asset Store</h3>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Discussions to bring the package to the Asset Store are ongoing, we are looking to do this in the near future.</p>
+</div>
+<h3 id="openupm">OpenUPM</h3>
+<p>The <code>GDX</code> package is registered with <a href="https://openupm.com/">OpenUPM</a>, and releases are automatically reflected in that registry. The package is registered as <code>com.dotbunny.gdx</code>.</p>
+<p>For detailed instructions on how to use the <a href="https://openupm.com/">OpenUPM</a> system and it's limitations, please consult their &quot;<a href="https://openupm.com/docs/getting-started.html#installing-a-upm-package">Installing a UPM package</a>&quot; documentation.</p>
+<h3 id="cloned-repository">Cloned Repository</h3>
+<p>It is possible for the repository to be cloned into a sub-folder in your project's <code>Assets</code> folder. This option makes it easy to modify <code>GDX</code> to your liking, as well as access additional <em>in-development</em> branches.</p>
+<pre><code class="lang-bash">git clone https://github.com/dotBunny/GDX.git
+</code></pre>
+<p>This method is how typical development is done on <code>GDX</code>.</p>
+<h2 id="project-settings">Project Settings</h2>
+<p>Upon installation, <code>GDX</code> <em>should</em> work out of the box.</p>
+<p>Further configuration of <code>GDX</code> is done by opening the <strong>Project Settings</strong> window (<strong>Edit &gt; Project Settings...</strong>), and selecting the <code>GDX</code> section. You will be presented with a view similar to the image below, with numerous configuration options sorted by feature.</p>
+<p><img src="/images/manual/getting-started/gdx-config.png" alt="Project Settings"></p>
+<p>Each feature has a collapsable section (<strong>A</strong>) that is expandable and collapsable by clicking the <strong>+</strong>/<strong>-</strong> buttons to the header's left. Features dynamically activate based on the Unity version and packages found in the project (<strong>B</strong>).</p>
+<p>A section header's background can inform you of the status of the feature. A green background indicates that the feature is active, where a yellow background means that it is currently disabled. Not all features are enabled by default and require an opt-in (<strong>C</strong>). A blue background indicates an always-on feature, most commonly just functionality that has some level of configuration.</p>
+<h3 id="persitent-storage">Persitent Storage</h3>
+<p>Project-specific configuration values are stored in <a href="xref:GDX.GDXConfig">GDXConfig</a>, a <code>ScriptableObject</code> placed at <code>/Resources/GDX/GDXConfig.asset</code>. This allows access to configured values at both author and runtime and to be persistent across the project.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dotBunny/GDX/blob/main/.docfx/manual/getting-started.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+       <div class="grad-bottom"></div>
+       <div class="footer">
+         <div class="container">
+           <span class="pull-right">
+             <a href="#top">Back to top</a>
+           </span>
+           
+           <span>Built on 11-02-21 against <a href="https://github.com/dotBunny/GDX/releases/tag/v2.0.1"><strong>v2.0.1</strong></a>.<br>Generated by <strong>DocFX</strong></span>
+         </div>
+       </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
