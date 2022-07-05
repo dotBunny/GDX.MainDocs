@@ -5,7 +5,7 @@
     "priority": 0.1
   },
   "homepages": [],
-  "source_base_path": "C:/Workspaces/dotBunny_GDX.Tests/Projects/000_Development/Assets/com.dotbunny.gdx/.docfx",
+  "source_base_path": "D:/BuildAgent/work/GDX-Documentation/Projects/GDX_Development/Packages/com.dotbunny.gdx/.docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -23,7 +23,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.AddressablesExtensions.html",
-          "hash": "AIFhtOKMlQ9yRnv0zBQSDalm5OrrkEmP4jqmXPMqM4o="
+          "hash": "hVA9/xEn1iPr8aH98znfYYOowubd0O8G1yHkyuxwEvo="
         }
       },
       "is_incremental": false,
@@ -35,7 +35,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Array2DExtensions.html",
-          "hash": "8ThheK219Vr9H/5UADClZOBbtREqU4x4gFdRAviQMrI="
+          "hash": "QY+Rdz6seZrJz1Vs0/Axx5AHShQuNcnloL4jivYlYwk="
         }
       },
       "is_incremental": false,
@@ -47,7 +47,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.ArrayExtensions.html",
-          "hash": "4ADJo6FXsQNCvU4XeUk+5WgiM/+fwkwcRREzU5Qnz10="
+          "hash": "b8ZHsqPmEEh8ZUJdQfeB9gfeRECsLCq+cQ0COMBit0E="
         }
       },
       "is_incremental": false,
@@ -59,7 +59,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.BoxColliderExtensions.html",
-          "hash": "SFmh/oOR3TYyXiLFS+aTE3VVEYJ/1rm6UtXbvi2BwRM="
+          "hash": "+vfEKIKSf43zbcsHKpGLslcPNC7YLTDEey1JFLaSlZg="
         }
       },
       "is_incremental": false,
@@ -71,7 +71,19 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.ByteExtensions.html",
-          "hash": "+pkqHOzNsJjfKSIVU9dsK1qGoQJePbFPOR4r2hrjUEw="
+          "hash": "PBQHv6L2PQRNb23mlsr0moIWpseZg/g/wNnXlVwtLeY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.CameraExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.CameraExtensions.html",
+          "hash": "sjiFeXGTGvxJi0j4r1mNvUswLZ8K1po/0ItWmqmhgo4="
         }
       },
       "is_incremental": false,
@@ -83,7 +95,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.CapsuleColliderExtensions.html",
-          "hash": "TB65rV1q8kDCFg7XA+gH32JxfCX5Sa7qe65Awm3upis="
+          "hash": "jI8I22vrUt3vC8KVnKIW5w6EeIRtrH/NE05IKibPCfo="
         }
       },
       "is_incremental": false,
@@ -95,7 +107,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.BitArray128.html",
-          "hash": "ihvZn8b1kkI0mCCGnWnYyJiM8rfGuA3uIK1X0hIrA1o="
+          "hash": "0GouTVbhDykr/JocFvRv1+fYatnEEEEccjVb/y94eSo="
         }
       },
       "is_incremental": false,
@@ -107,7 +119,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.BitArray16.html",
-          "hash": "+ua1619WonbjY08sthDbzKIGFGlo2ceONXvDsmVIMes="
+          "hash": "yKZVCXLywFseApDPtolilTHFVUdJAQWTkdNqs0SYY5s="
         }
       },
       "is_incremental": false,
@@ -119,7 +131,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.BitArray256.html",
-          "hash": "/emHgevsl21Uvssp1M/UTygms/jzIpBAMZ3pY+lutcc="
+          "hash": "f2rppdeJufdxlKPfrEdUAZQ/ed5FLFM4Fnsoo19Zwk8="
         }
       },
       "is_incremental": false,
@@ -131,7 +143,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.BitArray32.html",
-          "hash": "3/2pKc5WxTMOVwkUxnIRqF4liah+TyA7K6KwFaXkRV4="
+          "hash": "gzQteByrgKNYK7svMXCstzQ+fpNkfUGtaYUoHa2VfII="
         }
       },
       "is_incremental": false,
@@ -143,7 +155,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.BitArray512.html",
-          "hash": "l9W7WGojJLsUQ2nzy66UYL4nHZ+kT9zfXRGvDgy5Yu0="
+          "hash": "YktnMML6s6PjXiKsPcLtR1QDwMd05tW2IJyvjv0Eyqc="
         }
       },
       "is_incremental": false,
@@ -155,7 +167,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.BitArray64.html",
-          "hash": "UGIxdF2FXqKKHtbXqyUKrIjZvuucOoV3+DplncALwKw="
+          "hash": "Cleip8YX28FCgyG+inO6rkn49elCXfEQn4K7iStO61E="
         }
       },
       "is_incremental": false,
@@ -167,7 +179,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.BitArray8.html",
-          "hash": "T9CtYsxqlEoDSB3qo+MwtBXZc9XesG1w4BRTyp6dR54="
+          "hash": "L6E0qR8c+ki06J9jRKA975zLKzKO/9GAOcU5zdsV7n0="
         }
       },
       "is_incremental": false,
@@ -179,7 +191,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.FreeList.html",
-          "hash": "jRgPaHbURsG2eo0JCy6/qnZlh/W+cfgpas8obYyl6GM="
+          "hash": "OqatP+RGx8eUmrNhm35DOSLIBQGXxaanNuMtxBIqBBE="
         }
       },
       "is_incremental": false,
@@ -191,7 +203,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Generic.Array2D-1.html",
-          "hash": "JAiOLKMr7LHeS8NID1+aEFS+gnRFqyX/ORApwy5gC2g="
+          "hash": "jiJ0L42Wois5UvHmbWWpwWUAIH0P9qy2GpXUtqnKMBc="
         }
       },
       "is_incremental": false,
@@ -203,7 +215,55 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Generic.CircularBuffer-1.html",
-          "hash": "Mu+HbW9Uk/R99J9fL8HFKsZto8cOniJWJvs8PTvXKXE="
+          "hash": "yXbzSdVgU6jk7NaVPayIWhLypMjHptij27Vsl7NJylI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.DictionaryPrimes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.DictionaryPrimes.html",
+          "hash": "nEQBL+2iihk4oU2qVFmUMS0XqiEjf5yZxsTKUvJURZ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.IntKeyDictionary-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.IntKeyDictionary-1.html",
+          "hash": "FZt2Z7mjmR3T2bBIzBabe8l3+8wf9z+IIHm89X8NHfI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.IntKeyEntry-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.IntKeyEntry-1.html",
+          "hash": "ZU9LPDPmI9DwyQEk8+8liVtnTEACTsDyKvSe4hkRrhQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.IteratorState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.IteratorState.html",
+          "hash": "R5UTzFjeNG9IUaf0RKRo8hDKyPIjV+hrUxgN0c3Oje0="
         }
       },
       "is_incremental": false,
@@ -215,31 +275,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Generic.NativeArray2D-1.html",
-          "hash": "IWqp6VUCMrrbajbanVFzR13ro37o3btV/KvDdzuTkqs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Collections.Generic.NativeSimpleList-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/GDX.Collections.Generic.NativeSimpleList-1.html",
-          "hash": "CVUzodQDioA+beDtGm/9MIuo43UDcmsPwBvR9ej1py8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Collections.Generic.NativeSimpleQueue-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/GDX.Collections.Generic.NativeSimpleQueue-1.html",
-          "hash": "y+kgswam8pgcXlQGQymY3pyR5LD9cIKnEj7gNdWij1U="
+          "hash": "U4ph31UuJF7f8HaPyN4HKEQ5ZJJ9wqz8KYhnQEw3ttM="
         }
       },
       "is_incremental": false,
@@ -251,7 +287,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Generic.NativeUniformArray3D-1.html",
-          "hash": "kqEHiW+yPg8tJHPD5kExUbf2GdKCZG3iG+0N16GSmhs="
+          "hash": "SmpO9HRRqfBgkCuACfQp/g2Kwy5uybYuPwIbylFdRHI="
         }
       },
       "is_incremental": false,
@@ -263,7 +299,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Generic.SerializableDictionary-2.html",
-          "hash": "MnVYKEl2CqH38gUfbAkjyJp1hy2NnVPah7US+1U5N7c="
+          "hash": "Ybwxp02l0suctqvCFjrBnvhNUW+mRr879lmlymfz304="
         }
       },
       "is_incremental": false,
@@ -275,7 +311,43 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Generic.SimpleList-1.html",
-          "hash": "BJw3iVJ6XwySOFAvEkgvq4lAc8ATNFXhRxpHFCzT7VM="
+          "hash": "c/vAfYsVTD1hQ8scGCXc5AauWCd6tHF072RPd6aeDRI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.StringKeyDictionary-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.StringKeyDictionary-1.html",
+          "hash": "H0AViPFTv8fuUqNptuYBLSPzif1DavDvpSXtH94rHNQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.StringKeyEntry-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.StringKeyEntry-1.html",
+          "hash": "/Vg/nvpBVrS74g0EA490sUC4/ZJdZ6VHXZzCrPegGY8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Generic.UniformArray3D-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Generic.UniformArray3D-1.html",
+          "hash": "+D9D6TOzKNzekbjMTos4X5DF0xmaEeaahMGrfxbLfnI="
         }
       },
       "is_incremental": false,
@@ -287,7 +359,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Generic.html",
-          "hash": "WqU98sSI/o4pgCZgi1zzntwFZgVYipb5JiKkIAJP9b0="
+          "hash": "fF+eqhEEwZLIg9ijFTPqizXBlZo8mBxGJv8haM+bm/0="
         }
       },
       "is_incremental": false,
@@ -295,11 +367,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Collections.NativeSparseSet.yml",
+      "source_relative_path": "api/GDX.Collections.NativeArraySparseSet.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Collections.NativeSparseSet.html",
-          "hash": "rkgwjBtH9DXEo9d3AN40YNjtF3FOPwihKHv2l7kuNGA="
+          "relative_path": "api/GDX.Collections.NativeArraySparseSet.html",
+          "hash": "Lz7rI/oDv+w/80r/iIy7csPyCFgIQ/eYClA8hFkviCk="
         }
       },
       "is_incremental": false,
@@ -311,7 +383,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Pooling.ArrayPool-1.html",
-          "hash": "GCgR6Dp6FIrT//E/CV7BgO0yGVHLEaYMIjJEc/rC0QQ="
+          "hash": "uP6w4v2nP7Rbpti1DnrxCAti/yEldU8+L3FisCMvT2k="
         }
       },
       "is_incremental": false,
@@ -323,7 +395,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Pooling.GameObjectPool.html",
-          "hash": "qDo8yTl+kqMSLQwEbn635dMdE6t8cYwQLdYxFKj2wk0="
+          "hash": "H3fq7qZiiP0Q7vem+IsREgWv5Ql+ZjnEOTMKFbq0l4Y="
         }
       },
       "is_incremental": false,
@@ -335,7 +407,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Pooling.IGameObjectPoolItem.html",
-          "hash": "LjAdcw1Ru5T9gA2Iw76EJuvKViUvRQwrxS8e6ylaUUQ="
+          "hash": "0gUOX60emlbloSU/YFwZJ50RRkPlbXI4PCJYuAbiwvk="
         }
       },
       "is_incremental": false,
@@ -347,7 +419,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Pooling.IManagedPool.html",
-          "hash": "YJEx5u8WZEVsKCdYO71CuL2hm20nQGhPcFlWXumycns="
+          "hash": "WV1QeZGjPb4H/IcB8vt9/wi8Vgfq53cpxp6FehiB6Dg="
         }
       },
       "is_incremental": false,
@@ -359,19 +431,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Pooling.JaggedArrayWithCount-1.html",
-          "hash": "mHXIdXCyXDFMRrbyYPbkMf21w7/Ik/CmQUsKrw2y2ok="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Collections.Pooling.ListManagedPool.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/GDX.Collections.Pooling.ListManagedPool.html",
-          "hash": "7TsFMLWKHFVAFyna2YTN5q6OUiqNFB7vIjbysnF/ZSU="
+          "hash": "FtE4GhMc7pm0NutzZeHcx5bFrauXjpB/2EviPC1DBto="
         }
       },
       "is_incremental": false,
@@ -383,7 +443,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Pooling.ManagedPoolBuilder.html",
-          "hash": "qT3bSuWeFiBlMwlU6inY/VK311g1D512mVLZawBL9O0="
+          "hash": "DrHphGIIjoHY07lTGNFsiT2g4B2S0N58DLKrvBSEn9U="
         }
       },
       "is_incremental": false,
@@ -395,7 +455,19 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Pooling.ManagedPools.html",
-          "hash": "lKj/J8SYj/260ADk4INjflsVYJMcKHgGMXR1yxplm1M="
+          "hash": "9kiPOMqGfM1ZUw61EWbQVA/VhywRo6eOJGRBd0ZfSiA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.Pooling.SimpleListManagedPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.Pooling.SimpleListManagedPool.html",
+          "hash": "hp7Oxa9ihNZIniAiOYghXm9Tr0t2Vw0rP9xO0D+m9dI="
         }
       },
       "is_incremental": false,
@@ -407,7 +479,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.Pooling.html",
-          "hash": "FkRBI4qThDZLrjTAKWXFTBp10hV6ijVQfZHQ+BzguOg="
+          "hash": "bwcSasQxpR8q7VEwMk4w2v+ec3YFm7t3X96u/ShW5fI="
         }
       },
       "is_incremental": false,
@@ -419,7 +491,19 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.SparseSet.html",
-          "hash": "lQWV/fOxb8QQ7wQx5+1PH6Vi+uZ8YOim57+wxpuCqQA="
+          "hash": "INhbAWxCgUdA6W281f+AzHcCekGbljNHeTqihtR3YNk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Collections.UnsafeSparseSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Collections.UnsafeSparseSet.html",
+          "hash": "oFM+G1+C/msmU8kIJ1NfK8VeSHBVFUDLEjdvX8RTTD0="
         }
       },
       "is_incremental": false,
@@ -431,7 +515,31 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Collections.html",
-          "hash": "1wubDzZ4hVoX28vjfNukqaBmVsoJbw/EGf1ras3QBwE="
+          "hash": "NKV+KiFJLMGpOiCOUDJX9IWjAorT2jZzIVIBmQYPepA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Config.html",
+          "hash": "vL6awmltOYsClQeFHIC8rNXInjEFW8r76CjUPjPpb8g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Core.html",
+          "hash": "Riph12oltcxiO+NGWWVXwRwp5LIf9LgUYIwEqDGZ0t0="
         }
       },
       "is_incremental": false,
@@ -443,7 +551,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Developer.CommandLineParser.html",
-          "hash": "MENRKGJDYLc5TeyO/oZSqzveCeMGbtGw526/ki02y8Y="
+          "hash": "LV+ZNAyF/TwBwd1AGQ0eMVdsJVsi4/Mp2Tl63nyuFqg="
         }
       },
       "is_incremental": false,
@@ -455,7 +563,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Developer.Conditionals.html",
-          "hash": "PyoWINxp5YCkaGmy/KxvDuUEdStjYxdT5L65VQDgbeQ="
+          "hash": "S6B7wObWASxmw3x5ifq75DVxZXiDvQiesVIcTPEI9Gw="
         }
       },
       "is_incremental": false,
@@ -463,11 +571,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Objects.AssetBundleObjectInfo.yml",
+      "source_relative_path": "api/GDX.Developer.Profiling.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Objects.AssetBundleObjectInfo.html",
-          "hash": "xLAKfSJtWt0umEzdLSkJV8ipEFVZwFy70RIa8fZ51/s="
+          "relative_path": "api/GDX.Developer.Profiling.html",
+          "hash": "zTCSEEZBigspNEzvGPr/9o6GEs9Wrr+NCZVg3QUnAuo="
         }
       },
       "is_incremental": false,
@@ -475,11 +583,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Objects.MeshObjectInfo.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.BuildVerification.ITestBehaviour.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Objects.MeshObjectInfo.html",
-          "hash": "iZI57jqtuBuzzTJBUeG8QKYuldM4CnelP+1x01iLCtA="
+          "relative_path": "api/GDX.Developer.Reports.BuildVerification.ITestBehaviour.html",
+          "hash": "jI7r6JGWiiZzONsRP9sQ3gt2hzksIQYgLm39T5eIHDs="
         }
       },
       "is_incremental": false,
@@ -487,11 +595,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Objects.ObjectInfo.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.BuildVerification.SimpleTestBehaviour.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Objects.ObjectInfo.html",
-          "hash": "KuoTSaPyMyKmMf78aFiljZ4TCG6FFGU5TjvqxrOGHHI="
+          "relative_path": "api/GDX.Developer.Reports.BuildVerification.SimpleTestBehaviour.html",
+          "hash": "qFHKrkAV0xPk2xbJtSiaZg6pqh7YLjdIsfhAuAyI3Sw="
         }
       },
       "is_incremental": false,
@@ -499,11 +607,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Objects.ObjectInfoFactory.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.BuildVerification.TestRunner.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Objects.ObjectInfoFactory.html",
-          "hash": "ICXbTFEOM/EDiM+S0iAnxmofGpXzwscb5K+ZPlv/SXc="
+          "relative_path": "api/GDX.Developer.Reports.BuildVerification.TestRunner.html",
+          "hash": "Eaks783bovMkp7kcUCvSIga7tCpeuv2E6UParoiFhTQ="
         }
       },
       "is_incremental": false,
@@ -511,11 +619,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Objects.ShaderObjectInfo.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.BuildVerification.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Objects.ShaderObjectInfo.html",
-          "hash": "vLXPhPN0q+wCdSGAW9yhlDRi0W7vY5DIchGfvmB9rfI="
+          "relative_path": "api/GDX.Developer.Reports.BuildVerification.html",
+          "hash": "4MymnPWSlR9piFly5BKwcgxNq4IvNaA+v7jMxGfz4kw="
         }
       },
       "is_incremental": false,
@@ -523,11 +631,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Objects.TextureObjectInfo.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.BuildVerificationReport.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Objects.TextureObjectInfo.html",
-          "hash": "s3WUgCBfQKMYJBMVeXCQiAXolyuDXsemB4RQgsA3hQE="
+          "relative_path": "api/GDX.Developer.Reports.BuildVerificationReport.html",
+          "hash": "fxXOGYBnfD6yXo0UIVKXv4TIR/9PX1kazqH3CY5Ghjw="
         }
       },
       "is_incremental": false,
@@ -535,11 +643,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Objects.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.NUnit.Properties.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Objects.html",
-          "hash": "tjfRGpspv+hfEQdPyCifooXlcSnrT2KwmAFJYkOHu+c="
+          "relative_path": "api/GDX.Developer.Reports.NUnit.Properties.html",
+          "hash": "yJe+7kKnT23Pb0KfJ6y1UrKXdpvYPGjbSnfbahAOlWo="
         }
       },
       "is_incremental": false,
@@ -547,11 +655,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Report.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.NUnit.Property.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Report.html",
-          "hash": "Uq9kQFcZeuUNEMm9akSAEL1hhttir10GVPcNLB5qqyY="
+          "relative_path": "api/GDX.Developer.Reports.NUnit.Property.html",
+          "hash": "muQvXawmsK0F799+oFU1ZR5bPrJhj6pCLji2oT8bgCc="
         }
       },
       "is_incremental": false,
@@ -559,11 +667,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.ReportContext.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.NUnit.TestCase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.ReportContext.html",
-          "hash": "ZNk2kt+pmCogxzTVznT7m5nVWSrPSNEb5bERN09uWGY="
+          "relative_path": "api/GDX.Developer.Reports.NUnit.TestCase.html",
+          "hash": "qua0ip6jqeME4v/fQzU7zUisjl7t0RJg1LCIWk0VyUc="
         }
       },
       "is_incremental": false,
@@ -571,11 +679,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.ResourcesAudit.ResourcesQuery.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.NUnit.TestRun.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.ResourcesAudit.ResourcesQuery.html",
-          "hash": "gQtUWYzRh3r9kgLFLj3V5oPKVZsAdgUhmNj+R4aHU1k="
+          "relative_path": "api/GDX.Developer.Reports.NUnit.TestRun.html",
+          "hash": "mCxkgSVrIKXUJub5ayk2hv8y+UDndE62/c9qJom61pg="
         }
       },
       "is_incremental": false,
@@ -583,11 +691,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.ResourcesAudit.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.NUnit.TestSuite.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.ResourcesAudit.html",
-          "hash": "d9CNgXutV50CxJL001CrSF213UJU3gjbwoHPi9rf5sk="
+          "relative_path": "api/GDX.Developer.Reports.NUnit.TestSuite.html",
+          "hash": "RXRjiKp7n9DQFqySPq2LYn2XcMGxyKENlxKWau9vB9w="
         }
       },
       "is_incremental": false,
@@ -595,11 +703,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.ResourcesDiff.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.NUnit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.ResourcesDiff.html",
-          "hash": "FcqAWWtc9ztcRt5t4YC5NR879DRXPdoDbGG9gdC49zM="
+          "relative_path": "api/GDX.Developer.Reports.NUnit.html",
+          "hash": "NqCHIUP8K1g3J5ZQRafHoPrhSaV+o+J2PWVTBTbg59A="
         }
       },
       "is_incremental": false,
@@ -607,11 +715,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Sections.ApplicationSection.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.NUnitReport.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Sections.ApplicationSection.html",
-          "hash": "krBsbAAhNTCVMzNzK+Kj9cz7jsuKUg7FVU3jFI3SXS4="
+          "relative_path": "api/GDX.Developer.Reports.NUnitReport.html",
+          "hash": "naaAmWUHMmAIw3zSYDfjQJ3iTQ9ENWuM/PHhBcc0NQU="
         }
       },
       "is_incremental": false,
@@ -619,11 +727,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Sections.MemoryDiffSection.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.Objects.AssetBundleObjectInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Sections.MemoryDiffSection.html",
-          "hash": "yLGc4RnxT+du/uHdn2AFKVoya4a/2albsJt0c1egxKM="
+          "relative_path": "api/GDX.Developer.Reports.Resource.Objects.AssetBundleObjectInfo.html",
+          "hash": "a9UEj20yxw6w9IPL1FnvzRDOvbcdK/6k2x52ShyLUQw="
         }
       },
       "is_incremental": false,
@@ -631,11 +739,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Sections.MemorySection.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.Objects.MeshObjectInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Sections.MemorySection.html",
-          "hash": "i4RuA2WKa5kTZoT7lfStier/4/fnFdqAGSo7ak9ZnVw="
+          "relative_path": "api/GDX.Developer.Reports.Resource.Objects.MeshObjectInfo.html",
+          "hash": "hZoW6wqp1jWuULk99Tkvi5asKh+zgmO7FSFhoZwpOvk="
         }
       },
       "is_incremental": false,
@@ -643,11 +751,179 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Developer.Reports.Sections.yml",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.Objects.ObjectInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Developer.Reports.Sections.html",
-          "hash": "GCLIqId1R8MQILYWJGB4bXbRFM5VxL8+imbOP8wdlF4="
+          "relative_path": "api/GDX.Developer.Reports.Resource.Objects.ObjectInfo.html",
+          "hash": "TzsVWjIiC3AkSLPWeHmwaDqnj1ouAdbj6Vwi2XwoAfA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.Objects.ObjectInfoFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Resource.Objects.ObjectInfoFactory.html",
+          "hash": "j1YXZLuuibG6fBJxhM/iA3kqmX1gVBhRWHz10JYJsSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.Objects.ShaderObjectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Resource.Objects.ShaderObjectInfo.html",
+          "hash": "F/1/mJPZDZQueHKFPWAFZQL532ICRJ776J2SU0PW1K4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.Objects.TextureObjectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Resource.Objects.TextureObjectInfo.html",
+          "hash": "TAHO/S/hzPuOQt9xa4sQFCNdpfDte5FNtUFU1+oVh2I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Resource.Objects.html",
+          "hash": "RabOnn4Hayh6K0nx9ib+CFAw53+Ymm9VSTKBM4pnLN4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.ResourceReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Resource.ResourceReport.html",
+          "hash": "xTdW4YGuPJXoMjjjCiDXeH0A4c+/6Y+SaE5pLdx0NX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.ResourceReportContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Resource.ResourceReportContext.html",
+          "hash": "z83MlFbLs2JuDB6CI/ZrbgcE7sG+bOIBG9uFSl5Wevc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.Sections.ApplicationSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Resource.Sections.ApplicationSection.html",
+          "hash": "nRIilh3BVdoqXJi5xMoWTxpWNao+I/L0FZMZQOtQm+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.Sections.MemoryDiffSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Resource.Sections.MemoryDiffSection.html",
+          "hash": "6XEGB4JL2TcJeetOscxlXVgHzelIvOjWhymcY6C2pPM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.Sections.MemorySection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Resource.Sections.MemorySection.html",
+          "hash": "bA5Xo2yx/4K36O5hk3RbiVwO91sxbB3rfm1WxnTsLF4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.Sections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Resource.Sections.html",
+          "hash": "pS/Kek0E7nFhdvyfMeqEq1RYHE/+9MXf3Io2iIN7taE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.Resource.html",
+          "hash": "tRbvM3pQ3g6kZtELEfPRijSab1VUh6EqMje4MCUm03Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.ResourcesAuditReport.ResourcesQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.ResourcesAuditReport.ResourcesQuery.html",
+          "hash": "NmnpiAsyW1K0k0qsg05mideLaWPAN7sa2U/Tl29gqm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.ResourcesAuditReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.ResourcesAuditReport.html",
+          "hash": "6CJBelciG3iFmV+EXClqNCTm61uxPFc7ZDaWYAy9sBk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.Reports.ResourcesDiffReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.Reports.ResourcesDiffReport.html",
+          "hash": "07mBYBnm4MiNZ5s1Nz775hD5LL5SXF41SU+ApODSiNg="
         }
       },
       "is_incremental": false,
@@ -659,7 +935,55 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Developer.Reports.html",
-          "hash": "Ytx8QVe1sW2gsyomE495Qsv0vBUtWSblj9E1H4NnfU8="
+          "hash": "ZitW3p9jlIYZjczhKqb4OpI5WEOAm88r3VH/qndm7AI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.SemanticVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.SemanticVersion.html",
+          "hash": "sF65yUsAX4aQuyLeNBzxIuUu6e3ZL2Gr8Ss1MUBDmoo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.TextGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.TextGenerator.html",
+          "hash": "I2CjVrbReeI0D58b3szbfeXPoq0kVys+VcHwRJaz8Mk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.TransientReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.TransientReference.html",
+          "hash": "Y4Jvd/XZ/mOg9CAqn8yIQ7w2f6/gaWsCOuzwasRFiMs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Developer.WaitForMilliseconds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Developer.WaitForMilliseconds.html",
+          "hash": "CF9qyMkFMlM7bg8qjeOgUAkT/jKaTiD+P0v5GeTIeDw="
         }
       },
       "is_incremental": false,
@@ -671,7 +995,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Developer.html",
-          "hash": "xFq3VggphoZ1/l4IotOehoqKQ79g1T4CvouIfkW0J00="
+          "hash": "K2YaTTejMtwzu8Fq1eM/gzNRR009zJDaZcNeosB7Ttk="
         }
       },
       "is_incremental": false,
@@ -683,7 +1007,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Display.html",
-          "hash": "A7b2ESZqGD0Ehq2st86vTJYLwoHggQms+omFZxpcKHY="
+          "hash": "SgCVozjy0Hq+chlHqfafslzXG8MdG533jPmLKyuaqVE="
         }
       },
       "is_incremental": false,
@@ -695,7 +1019,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.Automation.html",
-          "hash": "vOSwp2kgnCfv9W36vZqg17YtbGviwnKdrslX7y279Lo="
+          "hash": "aHCDjzmgbHb0rgFFD7i6s8qiK045ww2F5IJLQeRAj7E="
         }
       },
       "is_incremental": false,
@@ -707,7 +1031,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.Build.BuildInfoProvider.html",
-          "hash": "QJIONYhD/0EVOsmqhFp6IAw2A9Z5n86dhLf+5VOCxbk="
+          "hash": "xiNAK4QbIatbs/Osl2ZaJJw9dHuoE0Ltw2isy33arV4="
         }
       },
       "is_incremental": false,
@@ -719,7 +1043,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.Build.Classic.BuildInfoBuildCustomizer.html",
-          "hash": "UYm6M7h6vu+UIdgoL7Rp/0uihLtwmJHtEbvbs7knUSk="
+          "hash": "SScrNdPtjOKluQOC9qC/gYZAylZVTorvyzMuiCCFSUg="
         }
       },
       "is_incremental": false,
@@ -731,7 +1055,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.Build.Classic.ScriptingDefinesBuildCustomizer.html",
-          "hash": "4alNVvlu7aPShaaj0rXJDGqrcjBUWn0pJCy2/L84ttQ="
+          "hash": "6RhgfqSkrld8domMDppXOdaXKLQa4T9+AdMyt7Q4nyk="
         }
       },
       "is_incremental": false,
@@ -743,7 +1067,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.Build.Classic.html",
-          "hash": "3OYcQjmJXmGFIZeMo96Uvg6r1vVc+GqTznz365p68z0="
+          "hash": "EAfSaoWk9YyrtowQRtc44PVvml0T0+xSYHSL22ltolk="
         }
       },
       "is_incremental": false,
@@ -755,7 +1079,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.Build.Legacy.BuildInfoBuildProcessor.html",
-          "hash": "skgviLrBwEfsvpuOdDdEs6CSvCilZFUW+P5izJni90M="
+          "hash": "ic5eKbxKfMk83IgS9f0qThYPKjVxyKAfu7GWnW2kAnk="
         }
       },
       "is_incremental": false,
@@ -767,7 +1091,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.Build.Legacy.html",
-          "hash": "VbBndgEGcBzggjzwcq63r1cw3DjDxmm7em7Av3iCpi8="
+          "hash": "8haWLaLeqRGJgllMFvCo0QCMNRBopL3C1IgCU7zjJN0="
         }
       },
       "is_incremental": false,
@@ -779,7 +1103,19 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.Build.html",
-          "hash": "Pfe8AaRqcoZ9zJriQoOxMNz++Rf+MxQlmDIiVPHBl7k="
+          "hash": "y9JXBKOg4Ksd/sW+bVeCa3D/AZaL8I94jW9J5PNP4jQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.ConfigGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.ConfigGenerator.html",
+          "hash": "Ko15HipHAQGYrGo7P+ebJyyhZG4ta6HOoUkoGZOFjIo="
         }
       },
       "is_incremental": false,
@@ -791,7 +1127,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.ManifestEntry.html",
-          "hash": "4QhXGwPYLRsZhojOTTn2Ynpv2Vnb/5fuLYvQvCov870="
+          "hash": "k5vq0CMckGt5/vUi2lCOPMwTKA4O5218OTMZkoozw1o="
         }
       },
       "is_incremental": false,
@@ -799,11 +1135,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.Editor.ProjectSettings.SettingsLayoutOptions.yml",
+      "source_relative_path": "api/GDX.Editor.ProjectSettings.IConfigSection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.Editor.ProjectSettings.SettingsLayoutOptions.html",
-          "hash": "zSTSfCtffXj2bMcK1lKT44KQblUYRVkD3lqc7cXlS9Q="
+          "relative_path": "api/GDX.Editor.ProjectSettings.IConfigSection.html",
+          "hash": "siLB9iKDczhzzSOOKAs/NO3thCIIJ0RiwbatF0xoA+U="
         }
       },
       "is_incremental": false,
@@ -815,7 +1151,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.ProjectSettings.html",
-          "hash": "1ARpPQPK1Jd+3dj+JC+KXHUUUgAh7mj1scmAdt+U9fk="
+          "hash": "4DeaIBGJ6q9hg8ENqVGImjWYZIm5jjm+gGZu4uXz3QY="
         }
       },
       "is_incremental": false,
@@ -827,7 +1163,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.PropertyDrawers.DisableInInspectorAttributePropertyDrawer.html",
-          "hash": "calkpRi7TWUDmCqd1mamxtpLnVUdXO8kOpHorjL+ijY="
+          "hash": "3hFYTLR509E9IvYW2EId9cRU4tQjCv33x0DmPs/WUg0="
         }
       },
       "is_incremental": false,
@@ -839,7 +1175,67 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.PropertyDrawers.html",
-          "hash": "EgQK2981pta1kbwBOfoIPqbLRX2XfSawXMx49cWC0+4="
+          "hash": "zAwJF9GM3DD6WWlZLnNtAum9F902qEyldQ8MgUQoRcE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.ResourcesProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.ResourcesProvider.html",
+          "hash": "SW3Bo0Wz3+bC7BZtGgG3MfQ8Eg6OGXcdWeFPtA3MRDA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.SerializedProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.SerializedProperties.html",
+          "hash": "ZjHroqQiz3fzES3/qqlYaP/s1Tn3J9sBXxizvogW9KE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.SerializedStopwatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.SerializedStopwatch.html",
+          "hash": "E/DpRKhb4O5uFjbk5OW3HEt2ym414AosUkQAYT7BS/Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.TestFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.TestFramework.html",
+          "hash": "vaWsyaAkSlBedSViXTO5EQ6LAyGVtiz4/uAYD0mF3jU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Editor.TransientConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Editor.TransientConfig.html",
+          "hash": "+5A2ySIBsPnAnPTKI2JZ3wRZLXgBoP41wtniDf1zOWI="
         }
       },
       "is_incremental": false,
@@ -851,7 +1247,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.VersionControl.html",
-          "hash": "GYdh/SK7pl7kxXhG4HHiK3WUQfaIHwJufyv9D5lo36s="
+          "hash": "Z31OZ1IAe90AfJ3O+5ra87DdXwls2r7mA16t+QMB+z4="
         }
       },
       "is_incremental": false,
@@ -863,7 +1259,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Editor.html",
-          "hash": "RTEPLZFCcKks3yhJiZ+BxAQzp9mkeSLEDWt/s2dseGA="
+          "hash": "M8SZoAsL9EtkjQaJ9JQsfTZlvQ2/PAH88zKfsbQytyo="
         }
       },
       "is_incremental": false,
@@ -875,7 +1271,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.EnumExtensions.html",
-          "hash": "h0Y2RYLc7OnRaSGqnDfp0utfcYYxT+/eZkcus7iv778="
+          "hash": "qTpJ37xup/W3OwkRmajAqTR8LadcJrgGFMGBHSQwpNc="
         }
       },
       "is_incremental": false,
@@ -887,7 +1283,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.GameObjectExtensions.html",
-          "hash": "kTT6wr+yWXittB2PgBM1FU/yWrIw1yezaC868mPpvRY="
+          "hash": "PxaenW5/ZqSf+CkMAWpir+oLV1XrLJKEmcIX8BbPMJ8="
         }
       },
       "is_incremental": false,
@@ -899,7 +1295,19 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.IListExtensions.html",
-          "hash": "CuD43SijR4Vl2zPwAAl9AvtHSb+w8vU31Cg5ztyJVRQ="
+          "hash": "GWeAeTQUaC6HESwjqo9EOpq2tC3N6W3E8yrNOzaBsuE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.IO.CoalesceStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.IO.CoalesceStream.html",
+          "hash": "pTjlY2Ov8Wnx2B7ETONnHNcqEanDnv5JUE66W52w6kk="
         }
       },
       "is_incremental": false,
@@ -911,7 +1319,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.IO.Compression.TarFile.html",
-          "hash": "QJk3NbT1U6Dq9Fj3whGByUvp7Z/TDBBl3fLHE5Yo+qA="
+          "hash": "ws2RKCZeAeYBgHTqlYTQzlNsvHILj5MxtMtn/7uifEI="
         }
       },
       "is_incremental": false,
@@ -923,7 +1331,67 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.IO.Compression.html",
-          "hash": "gMHTb54JH//HUPQ8Ao+3+2MbJVhLL1OLxiXFDV/KwpY="
+          "hash": "Chn55+3uQfW78MOGVpz+j8xl/I2J21C5Qa0F9vqfLQ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.IO.html",
+          "hash": "n0GYPRGf7/KqR1JdDhc9zg35l5fx/ILxIb0vuw/nKZ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Jobs.ParallelFor.Color32CompareJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Jobs.ParallelFor.Color32CompareJob.html",
+          "hash": "RhiMdsJdA7+QuxJLpnd+oY5CJu6eOlc12uayvYTSNKc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Jobs.ParallelFor.Color32MatchJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Jobs.ParallelFor.Color32MatchJob.html",
+          "hash": "0cggjbyD8wmIBLJAvMBhzuXBXhtItZ/p+HbkmoyQ2bo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Jobs.ParallelFor.ColorCompareJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Jobs.ParallelFor.ColorCompareJob.html",
+          "hash": "oynjXYKXZo4a+8wmGk49Q65IB3q9r0uuKGSS4BiIJ1k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Jobs.ParallelFor.ColorMatchJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Jobs.ParallelFor.ColorMatchJob.html",
+          "hash": "S7fkxTYFkHU9jv2fyyvyVShliDMhqnr7P9PPsbUqkKI="
         }
       },
       "is_incremental": false,
@@ -935,7 +1403,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Jobs.ParallelFor.IntegerBufferCopyJob.html",
-          "hash": "y/ANz6WwH3Ul4J86zoWMNe68xxd4WeGo18YgbTzpcYE="
+          "hash": "bIu9lThWtsVK0Y8YKGh6+bA/eCuT6fIYEsXTwUYWNis="
         }
       },
       "is_incremental": false,
@@ -947,7 +1415,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Jobs.ParallelFor.IntegerBufferFillJob.html",
-          "hash": "Meyml25vO/vccRxv4hVEnPn3H0W1Fz/2KSS9tTij7IE="
+          "hash": "x0mwRHVziWMPj1aQKq0fVWARdQxjKdJIKqf8dkkbDOQ="
         }
       },
       "is_incremental": false,
@@ -959,7 +1427,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Jobs.ParallelFor.IntegerBufferSwapJob.html",
-          "hash": "lpuPF11sDKJqiqwFqGHRmWjERiCXeqNgeHHRLmWf7uk="
+          "hash": "qnp9iIQMm29F7OQD3fRB8Co6HnwAcyxmYOMgX4qjzVw="
         }
       },
       "is_incremental": false,
@@ -971,7 +1439,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Jobs.ParallelFor.html",
-          "hash": "wr7r8brtBiBYEbJSSS2LqWKiQ0a6uzVkOFbq06uP+QY="
+          "hash": "9B0oKPDLrMVuFV2ZalGYabUSFc8Ft61pjzTpbAYYwMI="
         }
       },
       "is_incremental": false,
@@ -983,7 +1451,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Localization.Language.html",
-          "hash": "jdLnuDcNWu0a0Yr5meO5rhTi/9j64n+Vk9otLcPvPu0="
+          "hash": "071Zk1AJlH/s2A221UAdRqZwxtOdyC82IxB9Ip8ap8Y="
         }
       },
       "is_incremental": false,
@@ -995,7 +1463,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Localization.html",
-          "hash": "xFawzrFeEouPioZNqDluhiK3qmfaPjVwd7xxAOlo49c="
+          "hash": "GJfUYQFSUwS62cOwViuZDAPMHM4hlZ/JeYtLgPgHYws="
         }
       },
       "is_incremental": false,
@@ -1007,7 +1475,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.Byte2.html",
-          "hash": "cZj/xz7mYcNGgtYf8gS1FcX8+xzNCWJqwsnr49bJOj4="
+          "hash": "5JywJKnrBIYH77yCG0I0AqcjLTI3fOQGNYj9uRhqYag="
         }
       },
       "is_incremental": false,
@@ -1019,7 +1487,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.FibonacciHash.html",
-          "hash": "GgGRvYpqTQuXkvc7GAEf+iHts8VKx/TdnMlz0mDLlh8="
+          "hash": "zwn69Qr+4DvHoL4+H9osOrv/MN3b7ToRlI576Gkj/J8="
         }
       },
       "is_incremental": false,
@@ -1031,7 +1499,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.LongDoubleConversionUnion.html",
-          "hash": "UrqvRMr6PNn5Fk+o3ztCshuqwp7iiGohamj0v4F9tJc="
+          "hash": "VpAbuPiGla9ofRaE21WwVtTeHo3WO8yVjBhnlVRt4MI="
         }
       },
       "is_incremental": false,
@@ -1043,7 +1511,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.Random.IRandomProvider.html",
-          "hash": "RhueNtld2AoAHLs+JAWT/tp9amHFq5CMnL2Vpz+UgwA="
+          "hash": "93GPIWwLIq0DJWIl2Lo/WBoKCog1cnWH3MDtrw3sXbM="
         }
       },
       "is_incremental": false,
@@ -1055,7 +1523,19 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.Random.RandomAdaptor.html",
-          "hash": "hEN+irAO5JE+JCtStLrFM/SrLiO9YLDhHuwbUPUA5dU="
+          "hash": "yCl5w87ZCPldHgi8wTdfxu6GejVEU2bUOZESRGrGkyY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Mathematics.Random.RandomWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Mathematics.Random.RandomWrapper.html",
+          "hash": "j49ixrUJGqcGv2UCygseIS19CGD+AFehNkTVoWY7Dno="
         }
       },
       "is_incremental": false,
@@ -1067,7 +1547,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.Random.WELL1024a.WellState.html",
-          "hash": "rTN6k3piin0uxK4TDevDPimDJzvoJJm4zUWAWdnWCLs="
+          "hash": "ol3cxOlGBtcnfZAnVYZyjHcN6VJCddQE4vb/FH4TsI0="
         }
       },
       "is_incremental": false,
@@ -1079,7 +1559,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.Random.WELL1024a.html",
-          "hash": "9fn2Shg36EFW1K6HvLy2kgiwjhIUV+sh3J2pegWaYuM="
+          "hash": "JAQI2sDQ4IpKDwtVjObRsj1fOcaQQU5rCBxrfwEKAk4="
         }
       },
       "is_incremental": false,
@@ -1091,7 +1571,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.Random.html",
-          "hash": "XxmccbnrTCGhzopHE2CEUGJSrMjaOGpMeC3SS+mkoKE="
+          "hash": "gdGmq3NtJhnfRnPEqEM6WO08urMu58EQEh3/k/b2BOQ="
         }
       },
       "is_incremental": false,
@@ -1103,7 +1583,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.Range.html",
-          "hash": "Wyb1Edc+mXUEPmplPWUCF/7ySIx8J6JHzWVfSnZ9Bw4="
+          "hash": "U7rk8sS8A3OJUEi0vzj7au6GzfBUc+8zAMckz0nl/3Y="
         }
       },
       "is_incremental": false,
@@ -1115,7 +1595,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.Rotate.html",
-          "hash": "YD9xAbEKaHSeAqraIk0avPPyMz5qfbUK9pjsyGe13Eo="
+          "hash": "6Zibbt0saFCKWq53rFaybOw+cOIEGMWxD8QHXZ5P2q8="
         }
       },
       "is_incremental": false,
@@ -1127,7 +1607,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.Smooth.html",
-          "hash": "+8MM5tlsoyDhhsWfu0RLnhirHVliJe/Gr6iLXEk+nT8="
+          "hash": "fVBp/ekynz+JooSSUIbYhCY99qVpthvgnECk58XZQBM="
         }
       },
       "is_incremental": false,
@@ -1139,7 +1619,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Mathematics.html",
-          "hash": "pH/vjmPjCDa17Wy2O8kJ81bJyETZbExYsnMXKQ8AkIM="
+          "hash": "VbC136MMvNiIMRJECUj0XsXefaIno6Ybg8ja2Ebx+BU="
         }
       },
       "is_incremental": false,
@@ -1151,7 +1631,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Memory.html",
-          "hash": "77enThwLFBzvbn71Lyr6505zKYxXBsojjUBCWXDzu1Q="
+          "hash": "ehJpnN/rIYUBq89SBZ4oBGLD/VktyR5iGbT4UbybUqw="
         }
       },
       "is_incremental": false,
@@ -1163,7 +1643,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.MeshExtensions.html",
-          "hash": "W+5wT3ugotF7tg29ehM0OEfaAjQNZnEx7c0YsLgJwu4="
+          "hash": "mIOM9FYwoebVcxXUDmdnV0/KH9i0oF6eOAxKJ+V2Bk8="
         }
       },
       "is_incremental": false,
@@ -1175,7 +1655,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.MonoBehaviourExtensions.html",
-          "hash": "Qa1eJaNTv0ukaAUaDySsNtv2T5ik1g4Tey3PePwo6mw="
+          "hash": "URTDZSgUiLo1G1H/oNLp46/axU3nb0nmsgHegSqOxBI="
         }
       },
       "is_incremental": false,
@@ -1187,7 +1667,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.NavMeshPathExtensions.html",
-          "hash": "zTv5BcOtrErGdlpNoxvJrav/8kithwvIwGo8RZJqn8A="
+          "hash": "5inzeDA+XPLcqpSLPD/w74ttTkhmrPrwbX/esTVAbH8="
         }
       },
       "is_incremental": false,
@@ -1199,7 +1679,19 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Platform.html",
-          "hash": "Yz3JZKTQ9kwejVrQ50o1dMZ3xw38+OheLZnF8opu7q0="
+          "hash": "CN+vcpmCH0LdoNRgKdnQXgGOibMHeND2166WHDqhWmA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDX.Reflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDX.Reflection.html",
+          "hash": "7Smeuz0mkA9+tKPX+r6mrtVVhaTI6C5SgWP/zMdbCfk="
         }
       },
       "is_incremental": false,
@@ -1211,7 +1703,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.RigidbodyExtensions.html",
-          "hash": "iBMUDP80dTogZgC8T452tr1FmeFabNYkV2EOhswfCPI="
+          "hash": "9EMgNz5OMI5DjsfLXH1QXj4mr62cWYF8vvMJNVrBPpo="
         }
       },
       "is_incremental": false,
@@ -1219,11 +1711,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.SemanticVersion.yml",
+      "source_relative_path": "api/GDX.SegmentedString.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.SemanticVersion.html",
-          "hash": "dx9TQ3rSAcGjxF49n8Z2k7wkeTc+Ush2q5T5Gdok2CA="
+          "relative_path": "api/GDX.SegmentedString.html",
+          "hash": "tNxWlBfQT3dEn6mYHsDDvudpBLaEE+/oMYzU+TWixvE="
         }
       },
       "is_incremental": false,
@@ -1235,7 +1727,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.SimpleListExtensions.html",
-          "hash": "/CPdXr6stzY3Sg7eu9RD45sRavDB+yfirCyELx7ZT90="
+          "hash": "p30jMn38t/2SQQpLCWmP1r9Z9yM4KcDClEUCqjWTbs8="
         }
       },
       "is_incremental": false,
@@ -1247,7 +1739,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.StringExtensions.html",
-          "hash": "mhlw+N8KGwLG+Lc3iud0odLePWL75eZ7Tg1+xtnziNM="
+          "hash": "m/Gbm12sp5fyDXL4jgEK4Ypv/wMflQ2Nij0FfH2+siE="
         }
       },
       "is_incremental": false,
@@ -1259,7 +1751,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Trace.TraceLevel.html",
-          "hash": "fxGcMHPEsTgFfQwO8X0bembVfJeP5zt67R5wHUSbJOA="
+          "hash": "O1hoCLqHfVxz44pkwd1/NMS6Y/iLpTqsZuj5I3MUcj0="
         }
       },
       "is_incremental": false,
@@ -1271,7 +1763,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Trace.html",
-          "hash": "rhPDCpyKA6Kx4qqqZfPe+mGwkChg1qmo1l+PzMEg7D8="
+          "hash": "L3XKdmMXwQ+L/wK8iiJ7VtVltm6rpLWCYv1ybuveP/0="
         }
       },
       "is_incremental": false,
@@ -1283,7 +1775,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.TransformExtensions.html",
-          "hash": "U3cSfmMyDeO3NkEnWPapNC6YiNeMvlPYT2sD44UNULM="
+          "hash": "zZvNukOrJlyCSf3g0gvkxSrSMwPMD+Vh69z5TGtqqzc="
         }
       },
       "is_incremental": false,
@@ -1291,11 +1783,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/GDX.TransientReference.yml",
+      "source_relative_path": "api/GDX.UnsupportedRuntimeException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GDX.TransientReference.html",
-          "hash": "sM8cmyKxrQIJ4JhNshzJMWLqT6t5+Ks9WLj3p2YkIzA="
+          "relative_path": "api/GDX.UnsupportedRuntimeException.html",
+          "hash": "i1kW+reBikFBvlZL2xKgNHR7QtoDOtoYfK7Z2CuS1Ow="
         }
       },
       "is_incremental": false,
@@ -1307,7 +1799,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Vector2Extensions.html",
-          "hash": "eoW8HPJfI5+JsdWnUQiOZyIW+WSEBlPNwW9xyLFppWw="
+          "hash": "KVoZ0TwTDIex//u27M8EjVRXem5kGRjs0KOY578jWnA="
         }
       },
       "is_incremental": false,
@@ -1319,7 +1811,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.Vector3Extensions.html",
-          "hash": "91umHl7iUz1HzC6aLUqKl5x8/MGx6bGpJVsHthLP1es="
+          "hash": "eNN3E2RpG6l1FxW59hcIhnDpdd/Q2B3M3pDLJEFaP+A="
         }
       },
       "is_incremental": false,
@@ -1331,7 +1823,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GDX.html",
-          "hash": "X1wnQ5EAxFYOZaA/iKv+N+9DQfl9RiBxay8sgI1LXgc="
+          "hash": "qqW3stesdM5yZBi7AnGGsFtljov7YKPR5KFzuviJiuA="
         }
       },
       "is_incremental": false,
@@ -1343,7 +1835,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "m0uuQ6iZc334ZfVtN+GIrZdtIi9oyMPX96T4Sa9ZHfg="
+          "hash": "Gutyd3aCh6vsZIY8uqpiEzfdLS1mLz3J/9smMq/NDME="
         }
       },
       "is_incremental": false,
@@ -1355,7 +1847,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "0g7A+xBvGxaAnIAZERhuulDLkQfLIXyKgwxKLXM1NXA="
+          "hash": "4lH/QIrdaMMvM3B5OvlsE6wd6ghi3UYgCg4k0Jl7OKw="
         }
       },
       "is_incremental": false,
@@ -1367,7 +1859,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog.html",
-          "hash": "gXm8gm0L4gMy+canHYiP9hTEFt+bjly/0VYKzCZ51io="
+          "hash": "HPk3Kv3i5R3arEjLldK9cUiEQ97TMmnWLV5brp3Kc0Y="
         }
       },
       "is_incremental": false,
@@ -1390,6 +1882,17 @@
       "output": {
         "resource": {
           "relative_path": "images/home/gdx-banner.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/manual/contributing/automation/github-status.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/manual/contributing/automation/github-status.png"
         }
       },
       "is_incremental": false,
@@ -1430,17 +1933,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/manual/features/visual-scripting/bolt-setup.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/manual/features/visual-scripting/bolt-setup.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "images/manual/getting-started/gdx-config.png",
       "output": {
         "resource": {
@@ -1462,12 +1954,23 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/manual/getting-started/visual-scripting/bolt-setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/manual/getting-started/visual-scripting/bolt-setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "q0KHQLjdHi7RqOyUPFQk2RePGzPVcfKheW2YRJOdhxw="
+          "hash": "DHF5MlvP/EZfZG9UNEvHRUxfSgAPJoGZYGTi3DW1OjQ="
         }
       },
       "is_incremental": false,
@@ -1479,7 +1982,7 @@
       "output": {
         ".html": {
           "relative_path": "license.html",
-          "hash": "+K93bJUw8q8O6ugVaoIzElehel10gehzZf8cmiZWvG8="
+          "hash": "mMl1ZO75oMB6RZZaNy9h3HAKbAl4s7gsTo6Kvtv5XlM="
         }
       },
       "is_incremental": false,
@@ -1498,11 +2001,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/contributing.md",
+      "source_relative_path": "manual/contributing/automation.md",
       "output": {
         ".html": {
-          "relative_path": "manual/contributing.html",
-          "hash": "H3KU56dBY0EP0bYiTXaccW6Zx+EqnViprrJv3gFEUis="
+          "relative_path": "manual/contributing/automation.html",
+          "hash": "TyczskOLs97vDPvUodVknvY3m2q5aErTGf9u5enhBd8="
         }
       },
       "is_incremental": false,
@@ -1514,7 +2017,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/contributing/code-of-conduct.html",
-          "hash": "WvWjR3CtKUGTTytdyEedkfbi07Bbju+QrJaL74C+DJ4="
+          "hash": "/djnIJNYVuKTTMMYUee9IKcydPktYX761q95APuxf18="
         }
       },
       "is_incremental": false,
@@ -1522,11 +2025,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/contributing/design-guidelines.md",
+      "source_relative_path": "manual/contributing/coding-standard.md",
       "output": {
         ".html": {
-          "relative_path": "manual/contributing/design-guidelines.html",
-          "hash": "/oqTtPQ3q0UOs8cOIUJ6tpxNrJS0Ih0pkQDZwPIFgBY="
+          "relative_path": "manual/contributing/coding-standard.html",
+          "hash": "0QFbOyeIBL4KP8fn1gOx1c1cW0rIepytIHUb2pbmSv8="
         }
       },
       "is_incremental": false,
@@ -1538,7 +2041,19 @@
       "output": {
         ".html": {
           "relative_path": "manual/contributing/documentation.html",
-          "hash": "okjWHviAV9/5iCSfAwPgw9WBlQTm+cWZX1m7+RKZ5Rw="
+          "hash": "RENGxPSQt/dN3y4dQSVb+GpzxKZTPMwxRvGXvQ4Cu9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/contributing/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/contributing/index.html",
+          "hash": "fHdy2bp+Vb8dniMExFHvikkdsuUWnRFebeUMO2LUb5k="
         }
       },
       "is_incremental": false,
@@ -1550,19 +2065,22 @@
       "output": {
         ".html": {
           "relative_path": "manual/faq.html",
-          "hash": "zWftvq2GGzO2FKGfCAN0iivxPW0OZJqUOhGt0s+zIGs="
+          "hash": "t6IGbjKMkO7nn0JWF0wzrBb4/xd+Ukmx+ZPx4pn4JQQ="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
-      "source_relative_path": "manual/features.md",
+      "source_relative_path": "manual/features/index.md",
       "output": {
         ".html": {
-          "relative_path": "manual/features.html",
-          "hash": "YvdW7p862lMlUC7yDpOijELUJK3OHRyo7uIGKMWwsKw="
+          "relative_path": "manual/features/index.html",
+          "hash": "HZL/HV5wvkV6lP7k+wlhJWSaEEpDBBjuAfxcGnUrtCo="
         }
       },
       "is_incremental": false,
@@ -1574,7 +2092,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/features/serializable-dictionary.html",
-          "hash": "pvHjnFw/M83yLYSa7DzHxblL2fS0Z8GBPXU2Ep7hQcI="
+          "hash": "ps14SXm977lC96QvJLFdPbhle284OPCvvxzQf4jBR9w="
         }
       },
       "is_incremental": false,
@@ -1582,11 +2100,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/features/visual-scripting.md",
+      "source_relative_path": "manual/getting-started/index.md",
       "output": {
         ".html": {
-          "relative_path": "manual/features/visual-scripting.html",
-          "hash": "vyIxtYaT8BcXIsJJmGzvrOCTWufLrcNITF0XPdArrKo="
+          "relative_path": "manual/getting-started/index.html",
+          "hash": "PysoMk12wIaCmvTBCG8JQPrh/QHrwXXADK3l9uPnR7U="
         }
       },
       "is_incremental": false,
@@ -1594,11 +2112,35 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/getting-started.md",
+      "source_relative_path": "manual/getting-started/visual-scripting.md",
       "output": {
         ".html": {
-          "relative_path": "manual/getting-started.html",
-          "hash": "qh26xOuCLB57tb6HFR2ZZ4SHhzqM9ucPukirrvX7e9w="
+          "relative_path": "manual/getting-started/visual-scripting.html",
+          "hash": "CvROU3I5I0ecd7PaeJZ6JR5tuFFC8C+2RYA1iaT7XfI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/policy/code-of-conduct.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/policy/code-of-conduct.html",
+          "hash": "zLTUGp3QJbAOrIDa3kBFa8iT6POXLGloOndDe86gPvo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/policy/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/policy/index.html",
+          "hash": "I3i/2UvhtXx/eyQmrhEIZQECmMPJMKnWYXmi1x0UWow="
         }
       },
       "is_incremental": false,
@@ -1610,7 +2152,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/requirements.html",
-          "hash": "yL4hBYdafjjtNmgF5Ex+YTzPD0Y9RkVGA0z+Q8biSAw="
+          "hash": "YOqBZ4YBo8uUANRSorpC5vryVsX2VQSg6GbidJpeM7I="
         }
       },
       "is_incremental": false,
@@ -1622,7 +2164,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/security.html",
-          "hash": "HpGbv7v8EYjYCWT8GLDt9r99VRBsY7z6gCMT2R04oZw="
+          "hash": "HeVQ4DAwKrNzbF3XU1K7XyLsAWsDm+2U8JWMi4IuLUQ="
         }
       },
       "is_incremental": false,
@@ -1634,7 +2176,1770 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "FGvddEIZbOIHwRJEFbANUGD9dcY622hqROvhq0nOxlQ="
+          "hash": "j+f58Y/eKFFFTNbldSHCpYwEm5FuG6Wk8H2XUR59rhI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/GDX_Development-opencov/EditMode/TestCoverageResults_0000.xml",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/GDX_Development-opencov/EditMode/TestCoverageResults_0000.xml"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/GDX_Development-opencov/EditMode/TestCoverageResults_0001.xml",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/GDX_Development-opencov/EditMode/TestCoverageResults_0001.xml"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/GDX_Development-opencov/EditMode/TestCoverageResults_0002.xml",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/GDX_Development-opencov/EditMode/TestCoverageResults_0002.xml"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_AddressablesExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_AddressablesExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ApplicationSection.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ApplicationSection.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Array2DExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Array2DExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Array2D_T_.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Array2D_T_.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ArrayExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ArrayExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ArrayPool_T_.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ArrayPool_T_.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_AssetBundleObjectInfo.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_AssetBundleObjectInfo.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_BitArray128.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_BitArray128.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_BitArray16.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_BitArray16.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_BitArray256.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_BitArray256.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_BitArray32.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_BitArray32.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_BitArray512.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_BitArray512.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_BitArray64.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_BitArray64.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_BitArray8.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_BitArray8.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_BoxColliderExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_BoxColliderExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_BuildVerificationReport.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_BuildVerificationReport.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Byte2.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Byte2.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ByteExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ByteExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_CameraExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_CameraExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_CapsuleColliderExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_CapsuleColliderExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_CircularBuffer_T_.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_CircularBuffer_T_.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_CoalesceStream.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_CoalesceStream.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Color32CompareJob.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Color32CompareJob.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Color32MatchJob.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Color32MatchJob.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ColorCompareJob.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ColorCompareJob.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ColorMatchJob.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ColorMatchJob.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_CommandLineParser.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_CommandLineParser.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Config.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Config.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Core.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Core.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_DictionaryPrimes.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_DictionaryPrimes.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Display.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Display.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_EnumExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_EnumExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_FibonacciHash.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_FibonacciHash.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_FreeList.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_FreeList.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_GameObjectExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_GameObjectExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_GameObjectPool.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_GameObjectPool.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_IListExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_IListExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_IntKeyDictionary_TValue_.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_IntKeyDictionary_TValue_.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_IntegerBufferCopyJob.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_IntegerBufferCopyJob.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_IntegerBufferFillJob.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_IntegerBufferFillJob.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_IntegerBufferSwapJob.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_IntegerBufferSwapJob.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_IntegerDiff.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_IntegerDiff.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Localization.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Localization.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_LongDiff.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_LongDiff.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ManagedPoolBuilder.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ManagedPoolBuilder.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ManagedPools.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ManagedPools.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Memory.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Memory.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_MemoryDiffSection.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_MemoryDiffSection.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_MemorySection.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_MemorySection.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_MeshExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_MeshExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_MeshObjectInfo.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_MeshObjectInfo.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_MonoBehaviourExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_MonoBehaviourExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_NUnitReport.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_NUnitReport.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_NativeArray2D_T_.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_NativeArray2D_T_.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_NativeArraySparseSet.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_NativeArraySparseSet.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_NativeUniformArray3D_T_.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_NativeUniformArray3D_T_.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ObjectInfo.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ObjectInfo.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ObjectInfoFactory.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ObjectInfoFactory.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Platform.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Platform.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Profiling.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Profiling.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Properties.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Properties.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Property.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Property.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_RandomAdaptor.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_RandomAdaptor.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_RandomWrapper.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_RandomWrapper.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Range.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Range.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Reflection.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Reflection.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ResourceReport.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ResourceReport.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ResourceReportContext.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ResourceReportContext.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ResourcesAuditReport.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ResourcesAuditReport.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ResourcesDiffReport.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ResourcesDiffReport.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_RigidbodyExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_RigidbodyExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Rotate.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Rotate.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_SegmentedString.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_SegmentedString.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_SemanticVersion.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_SemanticVersion.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_SerializableDictionary_TKey_TValue_.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_SerializableDictionary_TKey_TValue_.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_ShaderObjectInfo.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_ShaderObjectInfo.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_SimpleListExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_SimpleListExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_SimpleListManagedPool.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_SimpleListManagedPool.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_SimpleList_T_.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_SimpleList_T_.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_SimpleTestBehaviour.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_SimpleTestBehaviour.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Smooth.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Smooth.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_SparseSet.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_SparseSet.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_StringExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_StringExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_StringKeyDictionary_TValue_.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_StringKeyDictionary_TValue_.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_TarFile.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_TarFile.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_TestCase.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_TestCase.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_TestRun.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_TestRun.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_TestRunner.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_TestRunner.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_TestSuite.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_TestSuite.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_TextGenerator.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_TextGenerator.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_TextureObjectInfo.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_TextureObjectInfo.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Trace.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Trace.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_TransformExtensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_TransformExtensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_TransientReference.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_TransientReference.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_UniformArray3D_T_.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_UniformArray3D_T_.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_UnsafeSparseSet.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_UnsafeSparseSet.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Vector2Extensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Vector2Extensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_Vector3Extensions.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_Vector3Extensions.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_WELL1024a.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_WELL1024a.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/GDX_WaitForMilliseconds.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/GDX_WaitForMilliseconds.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/Summary.xml",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/Summary.xml"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_branchcoverage.png",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_branchcoverage.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_branchcoverage.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_branchcoverage.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_combined.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_combined.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_linecoverage.png",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_linecoverage.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_linecoverage.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_linecoverage.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_blue.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_blue.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_brightgreen.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_brightgreen.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_green.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_green.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_lightgrey.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_lightgrey.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_orange.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_orange.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_red.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_red.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_yellow.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_yellow.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_yellowgreen.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_branchcoverage_yellowgreen.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_blue.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_blue.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_brightgreen.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_brightgreen.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_green.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_green.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_lightgrey.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_lightgrey.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_orange.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_orange.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_red.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_red.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_yellow.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_yellow.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_yellowgreen.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/badge_shieldsio_linecoverage_yellowgreen.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/class.js",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/class.js"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_cube.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_cube.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_cube_dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_cube_dark.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_down-dir_active.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_down-dir_active.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_down-dir_active_dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_down-dir_active_dark.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_fork.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_fork.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_fork_dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_fork_dark.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_info-circled.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_info-circled.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_info-circled_dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_info-circled_dark.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_minus.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_minus.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_minus_dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_minus_dark.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_plus.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_plus.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_plus_dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_plus_dark.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_search-minus.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_search-minus.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_search-minus_dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_search-minus_dark.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_search-plus.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_search-plus.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_search-plus_dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_search-plus_dark.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_sponsor.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_sponsor.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_star.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_star.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_star_dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_star_dark.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_up-dir.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_up-dir.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_up-dir_active.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_up-dir_active.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_wrench.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_wrench.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/icon_wrench_dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/icon_wrench_dark.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/index.htm",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/index.htm"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/index.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/main.js",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/main.js"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/Report/report.css",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/Report/report.css"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/coverage/TestResults.xml",
+      "output": {
+        "resource": {
+          "relative_path": "reports/coverage/TestResults.xml"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reports/inspection.md",
+      "output": {
+        ".html": {
+          "relative_path": "reports/inspection.html",
+          "hash": "Pgv+l4vu81trg02et4BJqWqkhtqf39ErDGvD0NVuVLc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/inspection.xml",
+      "output": {
+        "resource": {
+          "relative_path": "reports/inspection.xml"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/portability-raw.html",
+      "output": {
+        "resource": {
+          "relative_path": "reports/portability-raw.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reports/portability.dgml",
+      "output": {
+        "resource": {
+          "relative_path": "reports/portability.dgml"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reports/portability.md",
+      "output": {
+        ".html": {
+          "relative_path": "reports/portability.html",
+          "hash": "uNKtm08MZn1xoosBZAqLdTx8fRDBRC6PbCxpyJvaA5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "reports/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reports/toc.html",
+          "hash": "hcg9MjPXTcxZAo/ILqCcldku0gfu6UG4ve1LdJ6ztw0="
         }
       },
       "is_incremental": false,
@@ -1652,12 +3957,23 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "styles/main.js",
+      "output": {
+        "resource": {
+          "relative_path": "styles/main.js"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "vGGxGKeg7h0Ny/+23Xg+U9arkd6oxEk0++2mwa0b9kU="
+          "hash": "aeMB56WsLK9GoBdP2AMWamvoOwLxOn6gVxLayLmcQmQ="
         }
       },
       "is_incremental": false,
@@ -1676,14 +3992,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 15,
-          "skipped_file_count": 15
+          "total_file_count": 20,
+          "skipped_file_count": 20
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 110,
-          "skipped_file_count": 110
+          "total_file_count": 151,
+          "skipped_file_count": 151
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

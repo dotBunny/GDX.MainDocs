@@ -8,7 +8,7 @@
     <title>Requirements | GDX </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Requirements | GDX ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -49,6 +49,16 @@
         </nav>
         
         <div class="subnav navbar navbar-default">
+          <div id="branch" class="container">
+            <div id="branch-select">
+              <select name="environment" id="environment">
+                <optgroup label="Branch">
+                  <option value="main">main
+                  <option value="dev">dev
+                </optgroup>
+              </select>
+            </div>
+          </div>
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
               <li></li>
@@ -80,18 +90,18 @@
 <h1 id="requirements">Requirements</h1>
 
 <p>The <code>GDX</code> package can be dropped into any compatible <a href="http://unity3d.com">Unity</a> project and selectively enables portions of its functionality based on what packages it finds in the project. <code>GDX</code> accomplishes this feat by utilizing a preprocessor setup that places functionality behind gated conditionals set by the assembly definition.</p>
-<h3 id="unity-versions">Unity Versions</h3>
-<p>The suggested minimum Unity version for using <code>GDX</code> is Unity <code>2020.3</code>; internal development is done on <code>2021.1</code>.</p>
-<p>Compatibility is automatically tested against Unity's <strong>L</strong>ong <strong>T</strong>erm <strong>S</strong>upport releases <code>2018.4</code>, <code>2019.4</code> and <code>2020.3</code>.</p>
+<h2 id="unity-versions">Unity Versions</h2>
+<p>The suggested minimum Unity version for using <code>GDX</code> is Unity <code>2020.3</code>; internal development is done on <code>2022.1</code>.</p>
+<p>Compatibility is automatically tested against Unity's <strong>L</strong>ong <strong>T</strong>erm <strong>S</strong>upport releases <code>2020.3</code> and <code>2021.3</code>, as well as the current <code>2022.1</code> release.</p>
 <p><code>GDX</code> utilizes assembly definition version defines to gate feature sets and employs specific coding patterns that may not be available in previous versions of Unity.</p>
-<h3 id="supported-packages">Supported Packages</h3>
+<h2 id="supported-packages">Supported Packages</h2>
 <p>We try to make sure we are compatible with the latest verified release of a package across all supported versions of Unity where possible.</p>
 <table>
 <thead>
 <tr>
 <th style="text-align: left;">Define</th>
 <th style="text-align: left;">Package</th>
-<th>Minimum Unity Version</th>
+<th style="text-align: left;">Minimum Unity Version</th>
 <th>Minimum Package Version</th>
 </tr>
 </thead>
@@ -99,38 +109,38 @@
 <tr>
 <td style="text-align: left;">GDX_ADDRESSABLES</td>
 <td style="text-align: left;">com.unity.addressables</td>
-<td>2018.4</td>
+<td style="text-align: left;"><em>n/a</em></td>
 <td><code>1.16.16</code></td>
 </tr>
 <tr>
 <td style="text-align: left;">GDX_BURST</td>
 <td style="text-align: left;">com.unity.burst</td>
-<td>2018.4</td>
-<td><code>1.4.6</code></td>
+<td style="text-align: left;"><em>n/a</em></td>
+<td><code>1.6.4</code></td>
 </tr>
 <tr>
 <td style="text-align: left;">GDX_MATHEMATICS</td>
 <td style="text-align: left;">com.unity.mathematics</td>
-<td>2018.4</td>
-<td><code>1.2.1</code></td>
+<td style="text-align: left;"><em>n/a</em></td>
+<td><code>1.2.5</code></td>
 </tr>
 <tr>
 <td style="text-align: left;">GDX_PLATFORMS</td>
 <td style="text-align: left;">com.unity.platforms</td>
-<td>2020.3</td>
+<td style="text-align: left;"><em>n/a</em></td>
 <td><code>0.11.0-preview.17</code></td>
 </tr>
 <tr>
 <td style="text-align: left;">GDX_VISUALSCRIPTING</td>
 <td style="text-align: left;">com.unity.visual-scripting</td>
-<td>2021.1</td>
-<td><code>1.52</code></td>
+<td style="text-align: left;">2021.1</td>
+<td><code>1.5.2</code></td>
 </tr>
 <tr>
 <td style="text-align: left;">GDX_COLLECTIONS</td>
 <td style="text-align: left;">com.unity.collections</td>
-<td>2019.4</td>
-<td><code>0.14.0</code></td>
+<td style="text-align: left;"><em>n/a</em></td>
+<td><code>1.2.3</code></td>
 </tr>
 </tbody>
 </table>
@@ -138,30 +148,8 @@
 <h5>Note</h5>
 <p>It is essential to remember that the GDX_* defines are only valid inside the <code>GDX</code> assembly, see <a class="xref" href="../api/GDX.Developer.Conditionals.html">Conditionals</a> if you wish to access some semblance outside of <code>GDX</code>.</p>
 </div>
-<h3 id="portability">Portability</h3>
-<p>Automation continually checks the portability of the code used in <code>GDX</code> ensuring the compatibility across various platforms.</p>
-<table>
-<thead>
-<tr>
-<th>Platform</th>
-<th>Version</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>.NET Core + Platform Extensions</td>
-<td>3.1</td>
-</tr>
-<tr>
-<td>.NET Core</td>
-<td>3.1</td>
-</tr>
-<tr>
-<td>.NET Standard + Platform Extensions</td>
-<td>2.0</td>
-</tr>
-</tbody>
-</table>
+<h2 id="portability">Portability</h2>
+<p><a href="/manual/contributing/automation.html">Automation</a> continually checks the portability of the code used in <code>GDX</code> to ensure the compatibility across various platforms generating a <a href="/reports/portability.html">report</a>.</p>
 </article>
           </div>
           
@@ -183,18 +171,17 @@
         </div>
       </div>
       <footer>
-       <div class="grad-bottom"></div>
-       <div class="footer">
-         <div class="container">
-           <span class="pull-right">
-             <a href="#top">Back to top</a>
-           </span>
-           
-           <span>Built on 11-02-21 against <a href="https://github.com/dotBunny/GDX/releases/tag/v2.0.1"><strong>v2.0.1</strong></a>.<br>Generated by <strong>DocFX</strong></span>
-         </div>
-       </div>
-      </footer>
-    </div>
+      	<div class="grad-bottom"></div>
+      	<div class="footer">
+      		<div class="container">
+      			<span class="pull-right">
+      				<a href="#top">Back to top</a>
+      			</span>
+      			
+      			<span>Built on 2022-07-05 against <a href="https://github.com/dotBunny/GDX/commit/ed09ab6c65231031d3f30cecaa8050a450e1222a"><strong>ed09ab6</strong></a>.<br>Generated by <a href="https://github.com/dotBunny/GDX.Dox/"><strong>Dox</strong></a>+<a href="https://dotnet.github.io/docfx/"><strong>DocFX</strong></a>.</span>
+      		</div>
+      	</div>
+      </footer></div>
     
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
