@@ -62,9 +62,7 @@
       <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray128.cs" Offset="1469-1475" Line="47" Message="Field 'Bits3' can be made private" />
       <Issue TypeId="FieldCanBeMadeReadOnly.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray128.cs" Offset="1480-1485" Line="47" Message="Field can be made readonly" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray128.cs" Offset="1661-1665" Line="53" Message="Indexer 'this' is never used" />
-      <Issue TypeId="UnusedType.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray16.cs" Offset="600-610" Line="21" Message="Struct 'BitArray16' is never used" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray16.cs" Offset="797-803" Line="27" Message="Field 'Bits0' can be made private" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray16.cs" Offset="1355-1359" Line="42" Message="Indexer 'this' is never used" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray16.cs" Offset="1390-1394" Line="44" Message="Indexer 'this' is never used (except inside its declaration)" />
       <Issue TypeId="UnusedType.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray256.cs" Offset="684-695" Line="23" Message="Struct 'BitArray256' is never used (except inside its declaration)" />
       <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray256.cs" Offset="878-884" Line="29" Message="Field 'Bits0' can be made private" />
       <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray256.cs" Offset="1075-1081" Line="35" Message="Field 'Bits1' can be made private" />
@@ -82,9 +80,7 @@
       <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray256.cs" Offset="2264-2270" Line="71" Message="Field 'Bits7' can be made private" />
       <Issue TypeId="FieldCanBeMadeReadOnly.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray256.cs" Offset="2275-2280" Line="71" Message="Field can be made readonly" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray256.cs" Offset="2456-2460" Line="77" Message="Indexer 'this' is never used" />
-      <Issue TypeId="UnusedType.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray32.cs" Offset="600-610" Line="21" Message="Struct 'BitArray32' is never used" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray32.cs" Offset="795-801" Line="27" Message="Field 'Bits0' can be made private" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray32.cs" Offset="1349-1353" Line="42" Message="Indexer 'this' is never used" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray32.cs" Offset="1384-1388" Line="44" Message="Indexer 'this' is never used (except inside its declaration)" />
       <Issue TypeId="UnusedType.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray512.cs" Offset="684-695" Line="23" Message="Struct 'BitArray512' is never used (except inside its declaration)" />
       <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray512.cs" Offset="878-884" Line="29" Message="Field 'Bits0' can be made private" />
       <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray512.cs" Offset="1075-1081" Line="35" Message="Field 'Bits1' can be made private" />
@@ -118,12 +114,10 @@
       <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray512.cs" Offset="3876-3882" Line="119" Message="Field 'Bits15' can be made private" />
       <Issue TypeId="FieldCanBeMadeReadOnly.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray512.cs" Offset="3887-3893" Line="119" Message="Field can be made readonly" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray512.cs" Offset="4069-4073" Line="125" Message="Indexer 'this' is never used" />
-      <Issue TypeId="UnusedType.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray64.cs" Offset="600-610" Line="21" Message="Struct 'BitArray64' is never used" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray64.cs" Offset="795-801" Line="27" Message="Field 'Bits0' can be made private" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray64.cs" Offset="1349-1353" Line="42" Message="Indexer 'this' is never used" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray8.cs" Offset="790-796" Line="27" Message="Field 'Bits0' can be made private" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray8.cs" Offset="1102-1111" Line="33" Message="Constructor 'BitArray8' is never used" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\Array2D.cs" Offset="2036-2043" Line="52" Message="Constructor 'Array2D' is never used" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\BitArray64.cs" Offset="1384-1388" Line="44" Message="Indexer 'this' is never used (except inside its declaration)" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\Array2D.cs" Offset="2065-2072" Line="53" Message="Constructor 'Array2D' is never used" />
+      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\Array3D.cs" Offset="905-911" Line="30" Message="Field 'DepthLength' can be made private" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\Array3D.cs" Offset="3846-3858" Line="114" Message="Method 'GetFromIndex' is never used" />
       <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\CircularBuffer.cs" Offset="860-866" Line="25" Message="Field 'Capacity' can be made private" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\CircularBuffer.cs" Offset="3152-3166" Line="76" Message="Constructor 'CircularBuffer' is never used" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\DictionaryPrimes.cs" Offset="1647-1662" Line="47" Message="Method 'GetPrimesLength' is never used" />
@@ -138,23 +132,17 @@
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeArray2D.cs" Offset="5002-5016" Line="118" Message="Method 'ReverseColumns' is never used" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeArray2D.cs" Offset="6129-6140" Line="147" Message="Method 'ReverseRows' is never used" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeArray2D.cs" Offset="7482-7505" Line="176" Message="Method 'ToMultiDimensionalArray' is never used" />
-      <Issue TypeId="UnusedType.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="512-532" Line="16" Message="Struct 'NativeUniformArray3D' is never used" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="690-696" Line="21" Message="Field 'Array' can be made private" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="830-836" Line="26" Message="Field 'Length' can be made private" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="997-1003" Line="31" Message="Field 'Stride' can be made private" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="1144-1150" Line="36" Message="Field 'StrideSquared' can be made private" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="2294-2298" Line="60" Message="Indexer 'this' is never used" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="2797-2801" Line="74" Message="Indexer 'this' is never used" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="3733-3745" Line="103" Message="Method 'GetFromIndex' is never used" />
-      <Issue TypeId="UnusedType.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="449-463" Line="15" Message="Struct 'UniformArray3D' is never used" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="595-601" Line="20" Message="Field 'Array' can be made private" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="724-730" Line="25" Message="Field 'Length' can be made private" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="891-897" Line="30" Message="Field 'Stride' can be made private" />
-      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="1038-1044" Line="35" Message="Field 'StrideSquared' can be made private" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="1929-1933" Line="58" Message="Indexer 'this' is never used" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="2432-2436" Line="72" Message="Indexer 'this' is never used" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="3246-3258" Line="95" Message="Method 'GetFromIndex' is never used" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="3925-3937" Line="110" Message="Method 'GetFromIndex' is never used" />
+      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeArray3D.cs" Offset="1001-1007" Line="31" Message="Field 'DepthLength' can be made private" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeArray3D.cs" Offset="4398-4410" Line="124" Message="Method 'GetFromIndex' is never used" />
+      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="1148-1154" Line="36" Message="Field 'StrideSquared' can be made private" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="2541-2544" Line="66" Message="Accessor 'Item.set' is never used" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="2801-2805" Line="74" Message="Indexer 'this' is never used" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\NativeUniformArray3D.cs" Offset="3745-3757" Line="103" Message="Method 'GetFromIndex' is never used" />
+      <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="1050-1056" Line="35" Message="Field 'StrideSquared' can be made private" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="2184-2187" Line="64" Message="Accessor 'Item.set' is never used" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="2448-2452" Line="72" Message="Indexer 'this' is never used" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="3262-3274" Line="94" Message="Method 'GetFromIndex' is never used" />
+      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Generic\UniformArray3D.cs" Offset="3949-3961" Line="109" Message="Method 'GetFromIndex' is never used" />
       <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\NativeArraySparseSet.cs" Offset="1268-1274" Line="37" Message="Field 'FreeIndex' can be made private" />
       <Issue TypeId="FieldCanBeMadeReadOnly.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Pooling\ArrayPool.cs" Offset="509-519" Line="15" Message="Field can be made readonly" />
       <Issue TypeId="MemberCanBePrivate.Global" File="Packages\com.dotbunny.gdx\GDX\Collections\Pooling\ArrayPool.cs" Offset="530-536" Line="16" Message="Field 'MaxPoolCapacities' can be made private" />
@@ -198,8 +186,6 @@
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Config.cs" Offset="3662-3687" Line="73" Message="Field 'DeveloperBuildInfoEnabled' is never used" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Config.cs" Offset="4001-4028" Line="80" Message="Field 'DeveloperBuildInfoNamespace' is never used" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Config.cs" Offset="4342-4364" Line="87" Message="Field 'DeveloperBuildInfoPath' is never used" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Config.cs" Offset="4721-4761" Line="94" Message="Field 'DeveloperCommandLineParserArgumentPrefix' is never used" />
-      <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Config.cs" Offset="5157-5196" Line="102" Message="Field 'DeveloperCommandLineParserArgumentSplit' is never used" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Config.cs" Offset="5563-5595" Line="109" Message="Field 'EnvironmentScriptingDefineSymbol' is never used" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Config.cs" Offset="7010-7029" Line="137" Message="Field 'PlatformCacheFolder' is never used" />
       <Issue TypeId="UnusedMember.Global" File="Packages\com.dotbunny.gdx\GDX\Config.cs" Offset="7375-7391" Line="144" Message="Field 'TraceDebugLevels' is never used" />
