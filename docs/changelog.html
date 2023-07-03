@@ -8,7 +8,7 @@
     <title>Changelog | GDX </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Changelog | GDX ">
-    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -85,20 +85,65 @@
 <p>All notable changes to this project will be documented in this file.</p>
 <p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
 and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
+<h2 id="400---2023-07-02">[4.0.0] - 2023-07-02</h2>
+<p><em><strong>&quot;Going Bold&quot;</strong></em></p>
+<blockquote>
+<p>After almost a year of no public updates (the <code>dev</code> branch was bustling), the release of <code>4.0.0</code> comes with significant changes and a continued effort to improve unit test coverage and discoverability. The package remains tested against <code>2020.3</code> and <code>2021.3</code>; however, we strongly recommend transitioning to <code>2022.3</code> or newer to unlock additional functionality.</p>
+</blockquote>
+<h3 id="added">Added</h3>
+<ul>
+<li><code>GDX.Experimental</code> namespace to encapsulate code and features actively being iterated until they meet the shipping bar.</li>
+<li>New toggle added to Project Settings -&gt; GDX -&gt; Environment, ensuring that GDX shaders included are always included in a build. This encompasses the shaders necessary to draw the <code>DebugDraw</code> commands (<em>Experimental</em>).</li>
+<li><code>TaskDirector</code> to assist with <code>TaskBase</code> based scheduling of the thread pool, configurable in GDX project preferences.</li>
+<li><code>EditorTaskDirectorSystem</code> and <code>TaskDirectorSystem</code> to automatically tick the <code>TaskDirector</code> in appropriate modes.</li>
+<li>Boilerplate in <code>PlayerLoopSystemExtensions</code> to make modifying the PlayerLoop much simpler.</li>
+<li><code>Compact()</code> added to <code>SimpleList</code> utilizing a properly sized version of the backing array.</li>
+<li><code>FirstIndexOf()</code> and <code>LastIndexOf()</code> methods added to <code>ArrayExtensions</code> constrained to <code>IEquatable</code> for easier string comparison.</li>
+<li><code>FirstIndexOf()</code>, <code>FirstIndexOfItem()</code>, <code>FirstIndexOfValue()</code>, <code>LastIndexOf()</code>, <code>LastIndexOfItem()</code>, <code>LastIndexOfValue()</code> methods added to <code>SimpleListExtensions</code>.</li>
+<li><code>Contains()</code> to <code>SimpleListExtensions</code> constrained to <code>IEquatable</code>.</li>
+<li><code>WaitFor</code> program flow helper.</li>
+<li><code>AssetDatabaseReference</code> weak-reference objects with helpers.</li>
+<li><code>EditorPrefsCache</code> to cache editor preference accessing.</li>
+<li><code>StableDataTable</code> implementation of new <code>DataTableBase</code> with full suite of supporting references <code>*CellValue</code>.</li>
+<li>Spreadsheet-like editing experience for <code>DataTableBase</code> inheriting objects (<em>Unity 2022.2+</em>)</li>
+</ul>
+<h3 id="changed">Changed</h3>
+<ul>
+<li>Extension-based classes now live in the namespace they extend from.</li>
+<li>Reworked the project settings window to now include some of the recent changelog for visibility.</li>
+<li><code>SimpleListManagedPool</code> events renamed for consistency to <code>destroyedItem</code>, <code>returnedItem</code>, <code>spawnedItem</code>, <code>tearingDown</code>.</li>
+<li>Explicit callout that <code>SerializableDictionary</code> does not support custom struct keys.</li>
+<li>Addressables package version dependency increased to <code>1.18.19</code>.</li>
+<li>Internal config variable names clarified, including now a config format version number.</li>
+<li>Reworked internal stylesheets to be segmented and more efficient.</li>
+</ul>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li><code>StringKeyDictionary</code> and <code>IntKeyDictionary</code> can now be initialized with capacities as static fields.</li>
+<li>Bolt changes in Unity 2022 causing Project Settings from being able to load properly.</li>
+<li><code>TransformExtensions::GetFirstComponentInChildrenComplex()</code> will now properly handle the recursive compare of objects appropriately.</li>
+</ul>
+<h3 id="removed">Removed</h3>
+<ul>
+<li><code>Trace</code> has been removed, replaced with <code>ManagedLog</code> (<em>Experimental</em>), there is no longer a preferences section for it. Given that categories are set through code, so is the output options.</li>
+<li>Removed portability tests based on depreciation of tool.</li>
+<li>Reliance on <code>jobs</code> package.</li>
+<li>Any usage of <code>AssetDatabase.FindAssets()</code></li>
+</ul>
 <h2 id="301---2022-07-12">[3.0.1] - 2022-07-12</h2>
 <p><em><strong>&quot;3D Arrays&quot;</strong></em></p>
 <blockquote>
 <p>A few additions with a bug fix that emerged.</p>
 </blockquote>
-<h3 id="added">Added</h3>
+<h3 id="added-1">Added</h3>
 <ul>
 <li>New <code>Array3D</code> and <code>NativeArray3D</code> flattened 3D arrays.</li>
 </ul>
-<h3 id="changes">Changes</h3>
+<h3 id="changed-1">Changed</h3>
 <ul>
 <li><code>BitArray8</code>, <code>BitArray16</code>, <code>BitArray32</code>, <code>BitArray64</code> have been marked <code>Serializable</code>.</li>
 </ul>
-<h3 id="fixed">Fixed</h3>
+<h3 id="fixed-1">Fixed</h3>
 <ul>
 <li><code>IntKeyDictionary.Clear()</code> now properly sets bucket values.</li>
 </ul>
@@ -107,7 +152,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>As we began planning what this release might look like, the decision was made to attempt to clear out a significant portion of our technical debt by sunsetting unsupported versions of Unity. We also took this opportunity to reevaluate and upgrade portions of the framework to better position it for future growth.</p>
 </blockquote>
-<h3 id="added-1">Added</h3>
+<h3 id="added-2">Added</h3>
 <ul>
 <li>Dependencies on <code>com.unity.mathematics</code>, <code>com.unity.burst</code>, <code>com.unity.jobs</code> and <code>com.unity.collections</code> packages.</li>
 <li>Support for <code>com.unity.runtime.dots</code> (UNITY_DOTSRUNTIME) builds. Unsupported functionality will cause compilation errors during builds for immediate feedback on unsupported usage. Additionally, unsupported methods are flagged with an <code>UnsupportedRuntimeException</code> which is visible in <a href="https://gdx.dotbunny.com/api">documentation</a> as well as IDE intelli-sense.</li>
@@ -120,7 +165,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li>Additional information around <a href="https://gdx.dotbunny.com/manual/contributing/coding-standard.html">coding standards</a> to documentation.</li>
 <li><code>UniformArray3D</code> counter part to <code>NativeUniformArray3D</code></li>
 </ul>
-<h3 id="changed">Changed</h3>
+<h3 id="changed-2">Changed</h3>
 <ul>
 <li>Properly formatted the <code>CHANGELOG.md</code> thanks to a proper linter, as well as tried to unify nomenclature used to describe changes.</li>
 <li>The <code>GDX</code> namespace has been reorganized.</li>
@@ -129,7 +174,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li>Package's project settings were rebuilt to use <code>UIElement</code>s instead of <code>IMGUI</code> with added searchability.</li>
 <li><code>Smooth::HalfLifeToSmoothingFactor()</code> no longer defaults elapsed time to <code>Time.deltaTime</code></li>
 <li>The visual scripting module detects the package based installation available in <code>Unity 2021</code> and forward. If you wish to have support in <code>Unity 2020.3</code> via the Asset Store you will need to add a scripting define symbol of <code>GDX_VISUALSCRIPTING</code> to your project.</li>
-<li>All internal <code>Dictionary&lt;string, value&gt;</code> have been replaced with <code>StringKeyDictionary&lt;value&gt;</code></li>
+<li>All internal <code>Dictionary&lt;string,value&gt;</code> have been replaced with <code>StringKeyDictionary&lt;value&gt;</code></li>
 <li><code>BuildInfoProvider</code> now uses a <code>TextGenerator</code> for codegen.</li>
 <li><code>Platform::GetOutputFolder()</code> supports being overridden via command-line argument <code>GDX_OUTPUT_FOLDER</code>.</li>
 <li>Internal members of <code>SerializableDictionary</code> have been renamed, <code>FormerlySerializedAs</code> attribute has been used to hopefully upgrade content.</li>
@@ -144,14 +189,14 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li>Moved <code>TransientReference</code> into the <code>GDX.Developer</code> namespace.</li>
 <li><code>Byte2</code> accessor throws <code>IndexOutOfRangeException</code> when using <code>ENABLE_UNITY_COLLECTIONS_CHECKS</code>.</li>
 </ul>
-<h3 id="fixed-1">Fixed</h3>
+<h3 id="fixed-2">Fixed</h3>
 <ul>
 <li><code>Platform::IsFocused()</code> now returns the proper focus state on desktop platforms.</li>
 <li><code>TransformExtensions::DestroyChildren()</code> no longer has issues with child counts.</li>
 <li><code>NativeUniformArray3D.GetFromIndex()</code> provides the correct index now.</li>
 <li><code>NUnitReport.GetResultCount()</code> now reflects accurate count post <code>NUnitReport.Process()</code>.</li>
 </ul>
-<h3 id="removed">Removed</h3>
+<h3 id="removed-1">Removed</h3>
 <ul>
 <li><code>Automation::GetTempFolder()</code> in favour of using <code>Platform::GetOutputFolder()</code>.</li>
 <li><code>Automation::GetTempFilePath()</code> in favour of using <code>Platform::GetUniqueOutputFilePath()</code>.</li>
@@ -165,7 +210,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>This marks the start of our effort to refactor <strong>GDX</strong> to be more compatible outside of the GameObject world that we currently live in. Over the next couple versions a lot of effort will be going into making types Burst compatible. We will do this by changing the backing types to NativeCollections, however this will result in some slight changes to the API to force cleanup.</p>
 </blockquote>
-<h3 id="added-2">Added</h3>
+<h3 id="added-3">Added</h3>
 <ul>
 <li>A <code>RandomWrapper</code> was created to allow for <code>System.Random</code> to be used with the <code>IRandomProvider</code> interface.</li>
 <li>Cleaning method <code>StringExtensions::StripNonAscii()</code>.</li>
@@ -186,12 +231,12 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 </ul>
 </li>
 </ul>
-<h3 id="changed-1">Changed</h3>
+<h3 id="changed-3">Changed</h3>
 <ul>
 <li>Now using a <code>NativeArray&lt;uint&gt;</code> to store state in the 'WELL1024a', now requires the use of <code>Dispose()</code>.</li>
 <li>Some <code>Platform</code> methods behaved like extensions when they should not have been.</li>
 </ul>
-<h3 id="fixed-2">Fixed</h3>
+<h3 id="fixed-3">Fixed</h3>
 <ul>
 <li><code>WELL1024a</code> exclusive methods truly will exclude the values correctly.</li>
 </ul>
@@ -200,12 +245,12 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>Mistakes were made; fixes happened.</p>
 </blockquote>
-<h3 id="added-3">Added</h3>
+<h3 id="added-4">Added</h3>
 <ul>
 <li>Infinitely sized <code>CoalesceStream</code> available for dealing with large data streams.</li>
 <li>A few (<code>Platform::EnsureFileWritable()</code>, <code>Platform::ForceDeleteFile()</code>, <code>Platform::IsFileWritable()</code>) file permission operations have been added.</li>
 </ul>
-<h3 id="fixed-3">Fixed</h3>
+<h3 id="fixed-4">Fixed</h3>
 <ul>
 <li>The manifest for the package can be found again! Corrected path information to reflect new hierarchy.</li>
 </ul>
@@ -214,16 +259,16 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>A lot of experimental work is being now done in <em>feature</em> branches; this should speed up iteration time on releases.</p>
 </blockquote>
-<h3 id="added-4">Added</h3>
+<h3 id="added-5">Added</h3>
 <ul>
 <li><code>Trace</code> configuration matrix available in project settings.</li>
 </ul>
-<h3 id="changed-2">Changed</h3>
+<h3 id="changed-4">Changed</h3>
 <ul>
 <li>Internally used <code>SettingsStyles</code> has been split into <code>SettingsStyles</code> and <code>SettingsLayoutOptions</code> accordingly.</li>
 <li>Moved everything up one folder layer in package to fit with package standards.</li>
 </ul>
-<h3 id="fixed-4">Fixed</h3>
+<h3 id="fixed-5">Fixed</h3>
 <ul>
 <li>Optimized referencing of <code>GDXConfig</code> in author time operations (now similar to runtime).</li>
 <li><code>IListExtensions::ContainsItem()</code> now uses <code>Equals()</code> to resolve literals issues with strings.</li>
@@ -235,7 +280,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>Breaking changes and a new license (BSL-1.0); making GDX even easier to include in projects!</p>
 </blockquote>
-<h3 id="added-5">Added</h3>
+<h3 id="added-6">Added</h3>
 <ul>
 <li>New <a href="https://gdx.dotbunny.com/manual/faq.html">FAQ</a> section of the website, addressing some of the more frequently asked questions.</li>
 <li><code>WELL1024a</code> implementation to replace removed <code>MersenneTwister</code> in GDX .</li>
@@ -244,7 +289,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li><code>TransientReference</code> provides a comparable non-garbage collection blocking reference type.</li>
 <li><code>Report</code> provides some of the common logic used by the newly added <code>ResourcesAudit</code> and <code>ResourcesDiff</code>. Think of this as an incredibly simple way to find resource memory leaks.</li>
 </ul>
-<h3 id="changed-3">Changed</h3>
+<h3 id="changed-5">Changed</h3>
 <ul>
 <li>File license headers, repository wide now reference the BSL-1.0 license.</li>
 <li>Corrected minimum compatible version to <code>2018.4</code> in <code>README.md</code></li>
@@ -254,7 +299,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li><code>NativeSimpleList</code> and <code>NativeSimpleQueue</code> are only available when <code>com.unity.collections</code> is not present.</li>
 <li>Altered API documentation to have a heirachial namespace index using custom tooling.</li>
 </ul>
-<h3 id="removed-1">Removed</h3>
+<h3 id="removed-2">Removed</h3>
 <ul>
 <li>Removed some supporting types and methods used by GDX's project settings from <a href="https://gdx.dotbunny.com">documentation</a>.</li>
 <li>Removed <code>MersenneTwister</code> to allow for our new licensing model (functionally replaced with <code>WELL1024a</code> implementation).</li>
@@ -264,7 +309,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>An effort to make GDX more accessible to Visual Scripting.</p>
 </blockquote>
-<h3 id="added-6">Added</h3>
+<h3 id="added-7">Added</h3>
 <ul>
 <li>Automated compatibility tests for 2018.4 LTS, 2019.4 LTS and 2020.3 LTS have been added to internal CI.</li>
 <li>Automated portability checks for .NET Standard 2.0 and .NET Core 3.1 to internal CI.</li>
@@ -272,7 +317,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li>New array pooling type <code>ArrayPool</code>, with corresponding <code>JaggedArrayWithCount</code>.</li>
 <li>Numerous collections gained <code>Reverse()</code> methods, and the newly added <code>Array2D</code> also having <code>ReverseRows()</code> and <code>ReverseColumns()</code>.</li>
 </ul>
-<h3 id="changed-4">Changed</h3>
+<h3 id="changed-6">Changed</h3>
 <ul>
 <li>Stated support for GDX has shifted to current release cycle Unity, with support for 2018.4 LTS, 2019.4 LTS and 2020.3 LTS. This doesn't mean that it will not work with other versions, just our automation only checks against LTS and current versions.</li>
 <li>Removed the extension <code>Get</code> method from <code>GameObjectPool</code> to match the other methods.</li>
@@ -280,13 +325,13 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li>Consolidated access/creation of <code>GDXConfig</code>.</li>
 <li>Altered <code>NativeArray2D</code> to index accessor to function like <code>Array2D</code>.</li>
 </ul>
-<h3 id="fixed-5">Fixed</h3>
+<h3 id="fixed-6">Fixed</h3>
 <ul>
 <li>Force the Package Manager to resolve the package manifest during an update.</li>
 <li>Occasional infinite loop importing <code>GDXConfig</code> with a cache server.</li>
 <li>Unsupported attributes for Unity 2018.</li>
 </ul>
-<h3 id="removed-2">Removed</h3>
+<h3 id="removed-3">Removed</h3>
 <ul>
 <li>Struct specific extension methods have been removed from <code>IListExtensions</code> and <code>SimpleListExtensions</code>; explicitly to avoid obsfucating boxing types and hiding a problem.</li>
 </ul>
@@ -295,7 +340,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>Updates have been tested across different installation methods, a pooling system, and some fixes!</p>
 </blockquote>
-<h3 id="added-7">Added</h3>
+<h3 id="added-8">Added</h3>
 <ul>
 <li>UPM and GitHub installation methods utilizing the<code>dev</code> branch will have a &quot;Force Update&quot; action available to them in the <strong>Project Settings</strong>.</li>
 <li><code>PlatformExtensions</code> now has a <code>IsHeadless()</code> method for determining if the application is running without a graphics device initialized; aka a headless server.</li>
@@ -303,11 +348,11 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li><code>PoolingSystem</code> now exists in the <code>GDX.Collections.Pooling</code> namespace, including a <code>GameObjectPool</code> system.</li>
 <li><code>Trace</code> static now available to funnel all <code>GDX</code> based logging through, with editor/build configurations available.</li>
 </ul>
-<h3 id="changed-5">Changed</h3>
+<h3 id="changed-7">Changed</h3>
 <ul>
 <li>Made <code>SparseSets</code> .NET Standard 2.0 compliant <a href="https://github.com/dotBunny/GDX/pull/41">@godjammit</a></li>
 </ul>
-<h3 id="fixed-6">Fixed</h3>
+<h3 id="fixed-7">Fixed</h3>
 <ul>
 <li>Caught issue with <code>initialCapcity</code> causing an OOB issue with <code>SparseSets</code> <a href="https://github.com/dotBunny/GDX/pull/41">@godjammit</a></li>
 <li>Caught a few more null coalescing assignments that are not compatible with Unity 2019 in <code>InspectorMessageBoxAttributeDecoratorDrawer</code>. (thanks Nick &amp; Gabe)</li>
@@ -318,11 +363,11 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>Starting to frame up the ability to update package adds from GitHub.</p>
 </blockquote>
-<h3 id="added-8">Added</h3>
+<h3 id="added-9">Added</h3>
 <ul>
 <li>Some functionality around being able to update a UPM based package, by removing the entry in the lockfile, a package will update.</li>
 </ul>
-<h3 id="fixed-7">Fixed</h3>
+<h3 id="fixed-8">Fixed</h3>
 <ul>
 <li><code>NavMeshPathExtensions</code> no longer breaks compiling without <code>com.unity.mathematics</code>.</li>
 </ul>
@@ -331,7 +376,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>Enough critical mass has been hit with functionality that with this release we will start to look at publicizing the package more.</p>
 </blockquote>
-<h3 id="added-9">Added</h3>
+<h3 id="added-10">Added</h3>
 <ul>
 <li>Environment section of GDX project settings allows for an initial toggling of <code>GDX</code> scripting define symbol enforcement.</li>
 <li><code>TransformExtensions</code> gained a <code>GetScenePath()</code> to create an easy way to identify an object in logs.</li>
@@ -342,7 +387,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 </ul>
 </li>
 </ul>
-<h3 id="changed-6">Changed</h3>
+<h3 id="changed-8">Changed</h3>
 <ul>
 <li>The <code>CHANGELOG.md</code> has had it's identifiers simplified, retroactively.</li>
 <li>Functionality from inside of <code>Editor.Build.BuildInfoProvider</code> has been split into more specific classes for different build pipeline / paths.
@@ -362,7 +407,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 </ul>
 </li>
 </ul>
-<h3 id="fixed-8">Fixed</h3>
+<h3 id="fixed-9">Fixed</h3>
 <ul>
 <li>The <code>CHANGELOG.md</code> retroactively has had a <em>Fixed</em> section added.</li>
 </ul>
@@ -371,22 +416,22 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>Bugfixes, feedback, and features, just what a growing library needs.</p>
 </blockquote>
-<h3 id="added-10">Added</h3>
+<h3 id="added-11">Added</h3>
 <ul>
 <li><code>GDX</code> scripting define is automatically added to all build targets.</li>
 <li><code>GameObjectExtensions</code> and <code>TransformExtensions</code> received a <code>DestroyChildren()</code> function.</li>
 <li><code>DisableInInspectorAttribute</code> for all your disabled field needs.</li>
 <li><code>InspectorMessageBoxAttribute</code> for ease of messaging/reminders.</li>
 </ul>
-<h3 id="changed-7">Changed</h3>
+<h3 id="changed-9">Changed</h3>
 <ul>
 <li>Adopted using <code>dev</code> branch on GitHub for active development, pulling into version named branches for patching.</li>
 </ul>
-<h3 id="removed-3">Removed</h3>
+<h3 id="removed-4">Removed</h3>
 <ul>
 <li><code>InspectorLabelAttribute</code>, Unity has native <code>InspectorNameAttribute</code> in 2019.1+</li>
 </ul>
-<h3 id="fixed-9">Fixed</h3>
+<h3 id="fixed-10">Fixed</h3>
 <ul>
 <li>Restored reference to Unity.PerformanceTesting</li>
 </ul>
@@ -395,7 +440,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>Extending functionality out with more code from the backlog, while still addressing some oddities in the existing codebase.</p>
 </blockquote>
-<h3 id="added-11">Added</h3>
+<h3 id="added-12">Added</h3>
 <ul>
 <li>A Unity serializable dictionary based type <code>Collections.Generic.SerializableDictionary</code>.
 <ul>
@@ -423,7 +468,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li>Automated culture setting on main thread when an unknown system language is found, protecting against specific calender situations.</li>
 <li><code>LICENSE.meta</code> has returned to the package to stop compile warnings, we will just have to deal with GitHub not being able to figure out the license model automatically.</li>
 </ul>
-<h3 id="changed-8">Changed</h3>
+<h3 id="changed-10">Changed</h3>
 <ul>
 <li>Added language to <code>README.md</code> and documentation regarding associations to Unity.</li>
 <li>Optimized <code>GDXConfig</code> loading at runtime.</li>
@@ -431,7 +476,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li>Consolidated entirety of <code>Editor.Settings</code> related classes into private classes inside of itself.</li>
 <li>Moved <code>Editor.InspectorLabelPropertyDrawer</code> to <code>Editor.PropertyDrawers.InspectorLabelPropertyDrawer</code></li>
 </ul>
-<h3 id="removed-4">Removed</h3>
+<h3 id="removed-5">Removed</h3>
 <ul>
 <li>Centralized <code>Strings</code>, moving ownership of data to the actual primary consumer.</li>
 <li>Reference to unit test locations from files.</li>
@@ -442,7 +487,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>A whole lot of work went into trying to solidify what documentation is going to look like, as well as get foundational work in place to make sure anyone can contribute.</p>
 </blockquote>
-<h3 id="added-12">Added</h3>
+<h3 id="added-13">Added</h3>
 <ul>
 <li>Moved all static <code>GUIContent</code> from settings window into new <code>SettingsContent</code>.</li>
 <li>Moved all static layout functionality from <code>SettingsStyles</code> into <code>SettingsLayout</code>.</li>
@@ -469,7 +514,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li><code>Mathematics.Smooth</code> adds <code>Exponential()</code> smoothing functionality.</li>
 <li><code>Mathematics.Rotate</code> adds <code>Towards()</code> calculations.</li>
 </ul>
-<h3 id="changed-9">Changed</h3>
+<h3 id="changed-11">Changed</h3>
 <ul>
 <li><a href="https://gdx.dotbunny.com/">Generated documentation</a> now includes <code>private</code> and <code>internal</code> classes.</li>
 <li>Lowered feature requirement of <code>com.unity.jobs</code> to <code>0.2.7</code>, and <code>com.unity.burst</code> to <code>1.0.0</code>.</li>
@@ -489,15 +534,15 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>A DocFX generated <a href="https://gdx.dotbunny.com/">site</a> is now being stood up by our internal CI when a new commit is made to the <code>main</code> branch.</p>
 </blockquote>
-<h3 id="added-13">Added</h3>
+<h3 id="added-14">Added</h3>
 <ul>
-<li>A proper <a href="https://gdx.dotbunny.com/manual/getting-started/index.html"><strong>Getting Started</strong></a> section to the manual</li>
+<li>A proper <a href="https://gdx.dotbunny.com/manual/getting-started/index.html">Getting Started</a> section to the manual</li>
 </ul>
-<h3 id="changed-10">Changed</h3>
+<h3 id="changed-12">Changed</h3>
 <ul>
 <li>Fixes to compilation of code requiring C# 8 using <code>UNITY_2020_2_OR_NEWER</code> preprocessor in <code>IO.Compression.TarFile</code>, <code>StringExtensions</code> and <code>Editor.UpdateProvider</code>.</li>
 </ul>
-<h3 id="removed-5">Removed</h3>
+<h3 id="removed-6">Removed</h3>
 <ul>
 <li>Removed the Wiki links and entries on GitHub, favoring discussions and content additions to the <a href="https://gdx.dotbunny.com/">documentation</a>.</li>
 </ul>
@@ -506,7 +551,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>A bit of refactoring around <code>BuildInfo</code> to make it a little easier to work with and some small additions to functionality by request.</p>
 </blockquote>
-<h3 id="added-14">Added</h3>
+<h3 id="added-15">Added</h3>
 <ul>
 <li>Separation of checking folders and files path structure, new <code>Platform.EnsureFileFolderHiearchyExists()</code> just for files.</li>
 <li>The ability (by default) to encompass the <code>BuildInfo</code> output folder in an assembly definition.</li>
@@ -534,7 +579,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 </ul>
 </li>
 </ul>
-<h3 id="changed-11">Changed</h3>
+<h3 id="changed-13">Changed</h3>
 <ul>
 <li>All classes/structs with unit testing will reference the class in a comments</li>
 <li><code>ListExtensions</code> renamed to <code>IListExtensions</code> (as well as its unit test class)</li>
@@ -552,7 +597,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>Fixes for author-time code accessing runtime only parts.</p>
 </blockquote>
-<h3 id="added-15">Added</h3>
+<h3 id="added-16">Added</h3>
 <ul>
 <li>Added more <code>EditMode</code> unit test coverage.
 <ul>
@@ -561,7 +606,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 </ul>
 </li>
 </ul>
-<h3 id="changed-12">Changed</h3>
+<h3 id="changed-14">Changed</h3>
 <ul>
 <li>Renamed <code>Editor.Config</code> to <code>Editor.ConfigProvider</code></li>
 <li>Fixed a bug where author-time calls to <code>GDXConfig.Get()</code> would return a null as it is meant for runtime only, they will now route through an editor safe path.</li>
@@ -573,7 +618,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>A minor problem came to light after pushing the button.</p>
 </blockquote>
-<h3 id="changed-13">Changed</h3>
+<h3 id="changed-15">Changed</h3>
 <ul>
 <li><code>Developer.Build.BuildInfoGenerator</code> will now forcibly tell the <code>Developer.CommandLineParser</code> to do its thing prior to filling out the file.</li>
 </ul>
@@ -582,7 +627,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>We are breaking some rules! This should have been a <em>major release</em> as we have altered method names to be consistent across the API.</p>
 </blockquote>
-<h3 id="added-16">Added</h3>
+<h3 id="added-17">Added</h3>
 <ul>
 <li><code>GDX</code> assembly documentation contains <em>remarks</em> where a function or class requires the presence of Unity's CoreModule to function correctly.</li>
 <li><code>GDXConfig</code> scriptable object self creates to store persistent project-wide configurations for both runtime and author-time, editable through <strong>Project Settings</strong>.</li>
@@ -611,7 +656,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li><code>Developer.Editor.Build.BuildInfoGenerator</code> to generate content for the BuildInfo file.</li>
 <li><code>Developer.Editor.Settings</code> to drive specific <code>GDX.Developer</code> assembly settings to show up in the <strong>Project Settings</strong> window.</li>
 </ul>
-<h3 id="changed-14">Changed</h3>
+<h3 id="changed-16">Changed</h3>
 <ul>
 <li>Updated the <code>README.md</code> header with logo and badges.</li>
 <li>Added release names to <code>CHANGELOG.md</code> as well as removed namespace sub-lists, settling on having full names in description instead.</li>
@@ -643,7 +688,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 </li>
 <li>Moved <code>Collections.Byte2</code> to <code>Mathematics.Byte2</code> as it made more sense to alongside other similar types in <code>Unity.Mathematics</code>.</li>
 </ul>
-<h3 id="removed-6">Removed</h3>
+<h3 id="removed-7">Removed</h3>
 <ul>
 <li>Removed unused static StringBuilder from <code>Strings</code>.</li>
 </ul>
@@ -652,7 +697,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <blockquote>
 <p>Initial release containing only the GDX core library.</p>
 </blockquote>
-<h3 id="added-17">Added</h3>
+<h3 id="added-18">Added</h3>
 <ul>
 <li>Numerous static extension based functionality classes.
 <ul>
@@ -727,7 +772,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
       				<a href="#top">Back to top</a>
       			</span>
       			
-      			<span>Built on 2022-07-12 against <a href="https://github.com/dotBunny/GDX/commit/d768f7a14b6136691be852d176baf060b98a5746"><strong>d768f7a</strong></a>.<br>Generated by <a href="https://github.com/dotBunny/GDX.Dox/"><strong>Dox</strong></a>+<a href="https://dotnet.github.io/docfx/"><strong>DocFX</strong></a>.</span>
+      			<span>Built on 2023-07-02 against <a href="https://github.com/dotBunny/GDX/commit/a5e3411ab3700d96c7397283e7489b9e37f9e616"><strong>a5e3411</strong></a>.<br>Generated by <a href="https://github.com/dotBunny/GDX.Dox/"><strong>Dox</strong></a>+<a href="https://dotnet.github.io/docfx/"><strong>DocFX</strong></a>.</span>
       		</div>
       	</div>
       </footer></div>

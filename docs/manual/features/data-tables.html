@@ -1,0 +1,341 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Data Tables | GDX </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Data Tables | GDX ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div id="branch" class="container">
+            <div id="branch-select">
+              <select name="environment" id="environment">
+                <optgroup label="Branch">
+                  <option value="main">main
+                  <option value="dev">dev
+                </optgroup>
+              </select>
+            </div>
+          </div>
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="data-tables">Data Tables</h1>
+
+<p><img src="/images/manual/features/data-table/data-table-logo.png" alt="Data Tables"></p>
+<p>A robust implementation of a data table type similar to <a href="https://docs.unrealengine.com/5.2/en-US/data-driven-gameplay-elements-in-unreal-engine/">Unreal Engines</a>. <em>It's every game designers dream come true!</em></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This feature heavily relies on <code>Unity 2022.2</code> or newer functionality. The editing experience is disabled in older versions of Unity. The DataTableBase API is still valid for programmatic generation and manipulation.</p>
+</div>
+<h2 id="column-types">Column Types</h2>
+<p>Type coverage is very much related to how and what Unity will be able to serialize inside the backing <code>ScriptableObject</code>. Out of the box, you can use:</p>
+<table>
+<thead>
+<tr>
+<th>Values</th>
+<th>Structs</th>
+<th>Classes</th>
+<th>Special</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>string</code>, <code>char</code>, <code>bool</code>, <code>sbyte</code>, <code>byte</code>, <code>short</code>, <code>ushort</code>, <code>int</code>, <code>uint</code>, <code>long</code>, <code>ulong</code>, <code>float</code>, <code>double</code></td>
+<td><code>Vector2</code>, <code>Vector3</code>, <code>Vector4</code>,  <code>Vector2Int</code>,  <code>Vector3Int</code>, <code>Quaternion</code>, <code>Rect</code>, <code>RectInt</code>, <code>Color</code>, <code>LayerMask</code>, <code>Bounds</code>, <code>BoundsInt</code></td>
+<td><code>AnimationCurve</code>, <code>Gradient</code>, <code>Hash128</code>, <code>Object</code></td>
+<td><code>EnumInt</code></td>
+</tr>
+</tbody>
+</table>
+<p>Usage of <code>Object</code> (<code>UnityEngine.Object</code>) and <code>EnumInt</code> types require additional information to be provided when creating a new column. A filter field will be visible when adding a column of these types asking for a fully qualified name of the desired type; this allows editing fields to isolate types. As you type a picker will appear with <code>public</code> results from Unity's <code>TypeCache</code>.</p>
+<h2 id="creating">Creating</h2>
+<p>By default, a <code>StableDataTable</code> can be created from the Assets context menu or the application menu bar.</p>
+<blockquote>
+<p>Assets → Create → GDX → Stable Data Table</p>
+</blockquote>
+<p>This utilizes the <code>CreateAssetMenu</code> attribute on the <code>DataTableBase</code> implementations. If you create an implementation, you must add your own attribute.</p>
+<h2 id="inspector">Inspector</h2>
+<p><img src="/images/manual/features/data-table/inspector.png" alt="Inspector"></p>
+<p>A surface-level display of information about the <code>DataTableBase</code> is made available via the inspector. Names of rows and columns are listed, including the type of column.</p>
+<p>Clicking the <strong>Open</strong> button will open an editing window focused on the selected <code>DataTableBase</code>.</p>
+<h3 id="interchange">Interchange</h3>
+<p>The DataTableBase allows for data-interchange between formats (<a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> &amp; <a href="https://www.json.org/json-en.html">JSON</a> out-of-the-box), export and non-destructive table data import. What this means in practice is that you can export an already-built table and make changes in whatever editing program a user desires. Those changes can then be re-imported back into Unity, maintaining existing references (an example being an object column referencing prefabs).</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>It is important to note that the column structure (order and types) cannot change in the imported data. The row identifiers will be used to match up rows, updating where appropriate, creating when necessary, and removing when no longer found.</p>
+</div>
+<h4 id="excel--google-sheets">Excel / Google Sheets</h4>
+<p>Yes, absolutely!</p>
+<p>However, you will need to do a bit of legwork to get there. When we ship <code>GDX</code> we try to think about a lean-and-mean approach. Adding the libraries necessary to interact with those types easily would add a certain level of bloat to the package. We have modelled our existing JSON and CSV formats to demonstrate how to build custom formats.</p>
+<pre><code class="lang-csharp">   class ExcelFormat : FormatBase
+   {      
+      #if UNITY_EDITOR        
+      [UnityEditor.InitializeOnLoadMethod]
+      #else
+      [UnityEngine.RuntimeInitializeOnLoadMethod]
+      #endif        
+      static void RegisterFormat()
+      {
+         // Ensure the format is registered for usage
+         DataBindingProvider.RegisterFormat(new ExcelFormat());
+      }
+
+      // Fill out other overrides ...
+
+      public override SerializableTable Pull(string uri, ulong currentDataVersion, int currentStructuralVersion)
+      {                        
+         // Open excel file with OpenXML SDK            
+         // Read cells and put into new             
+      }
+
+      public override bool Push(string uri, SerializableTable serializableTable)
+      {
+         // Open excel file with OpenXML SDK
+         // Iterate through simplified table data and put into cells
+      }
+   }
+</code></pre>
+<h3 id="tracker">Tracker</h3>
+<p>Table information is tracked in the editor via a reference counting mechanism. This information is helpful for developers to identify leaking references that were expected to be removed. This information is updated manually every time the inspector is drawn. While some table-driven events trigger a redraw, this number sometimes needs to be refreshed. The <strong>Refresh</strong> button at the top of the inspector will update the numbers.</p>
+<h2 id="table-window">Table Window</h2>
+<p><img src="/images/manual/features/data-table/window.png" alt="Table Window"></p>
+<p>Bringing a spreadsheet-like editing experience to DataTables, this window allows for a designer or developer to quickly work on the structure or data of a DataTable in a familiar and expected experience. A unique-to-asset window will appear by double-clicking a DataTable asset or clicking the <strong>Open</strong> button while inspecting it.</p>
+<blockquote>
+<p>[!INFO]
+A lock icon may be on the toolbar's right side indicating that the Data Table has been put in *<em>References Only</em> mode, allowing for editing of only Unity-specific references.</p>
+</blockquote>
+<h3 id="shortcuts">Shortcuts</h3>
+<p>Some default shortcuts are bound to the Table Window, modelled after existing expected behaviours.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Add Row</td>
+<td>Ctrl + =</td>
+</tr>
+<tr>
+<td>Add Column</td>
+<td>Ctrl + Shift + -</td>
+</tr>
+<tr>
+<td>Add Row (Default)</td>
+<td>Ctrl + Shift + =</td>
+</tr>
+<tr>
+<td>Remove Selected Rows (Quick)</td>
+<td>Shift + Del</td>
+</tr>
+<tr>
+<td>Remove Selected Row</td>
+<td>Del</td>
+</tr>
+</tbody>
+</table>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Shortcuts can be changed in Unity's Shortcut manager, available in the Edit menu.</p>
+</div>
+<h3 id="sorting--ordering">Sorting &amp; Ordering</h3>
+<p>Clicking on the column headers allows for sorting the rows (ascending/descending); holding CTRL while clicking a column header will allow for multi-levels of sorting to occur. You can also manually click and drag rows up and down to reorder them. This ordering information is virtually managed at this stage and does not get committed to the Data Table without user direction.</p>
+<h3 id="table-menu">Table Menu</h3>
+<p>The first item in the menu bar covers table-specific operations and includes some of the functionality found in the individual inspectors (interchange operations, for example).</p>
+<h4 id="write-to-disk">Write To Disk</h4>
+<p>A DataTable is backed by a ScriptableObject; changes reside in memory until they are committed to disk by saving the project and/or asset. This option will execute a <code>SaveAssetIfDirty</code> on the backing object writing the contents to disk.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>This option will only be available when changes are detected to the currently opened DataTable.</p>
+</div>
+<h4 id="settings">Settings</h4>
+<p>Data Tables have settings which outline the behaviour of the table as well as some nice-to-have features. The <strong>Display Name</strong> is a user-friendly name shown throughout the editor for this table.</p>
+<blockquote>
+<p>The undo functionality is disabled by default, as it can be rather costly to execute across large datasets and is only available in Unity 2022.2 and newer.</p>
+</blockquote>
+<h3 id="columns-menu">Columns Menu</h3>
+<p>The general Columns menu gives minimal actions that can be taken without specifically selecting a column. Adding a new column, for example, is done from this menu. The <strong>Resize To Fit</strong> action will ensure that the displayed table fills the window's horizontal space without requiring scrolling. Column-specific actions are accessed by right-clicking a column header.</p>
+<h3 id="rows-menu">Rows Menu</h3>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Add</td>
+<td>Presents a dialogue to add a row to the Data Table, asking for a user-friendly name for the row before proceeding.</td>
+</tr>
+<tr>
+<td>Add (Default)</td>
+<td>Adds a row to the Data Table with a default randomly generated name.</td>
+</tr>
+<tr>
+<td>Rename Selected</td>
+<td>Renaming the selected row will update the row's internal user-friendly name stored in the Data Table.</td>
+</tr>
+<tr>
+<td>Remove Selected</td>
+<td>Deletes the selected row, plain and simple.</td>
+</tr>
+<tr>
+<td>Commit Order</td>
+<td>Alters the internal ordering of rows in the Data Table to match the current order of rows in the Table Window.</td>
+</tr>
+<tr>
+<td>Reset Order</td>
+<td>Clears the virtual sorting information and restores the order in the Data Table.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="context-menu">Context Menu</h2>
+<p>Currently, only the column headers have a context menu allowing the user to perform specific operations on that column.</p>
+<h3 id="rename">Rename</h3>
+<p>Renaming the column will update the column's internal user-friendly name stored in the Data Table.</p>
+<h3 id="remove">Remove</h3>
+<p>The name is self-explanatory; however, as a precaution, this will request confirmation that you want to remove the column. Ensure that the name matches the column you intended to remove.</p>
+<h3 id="move-left--right">Move Left / Right</h3>
+<p>While the order of rows in the table window is virtual (until committed), the order of columns is bound to the internal data table. These options will alter the column order one increment at a time.</p>
+<h2 id="referencing-cells">Referencing Cells</h2>
+<p>One of the design pillars for the DataTable feature was ensuring the data consumption was intuitive, both from a designer's standpoint and a developer's. A developer can create a cache-friendly reference to a cell by type:</p>
+<pre><code class="lang-csharp">   public FloatCellValue BaseHealth;
+
+   void Awake()
+   {
+      // Check data version and fill
+      Health = BaseHealth.Get();
+   }
+
+   void OnRespawn()
+   {
+      // Reset without checking data version
+      Health = BaseHealth.GetUnsafe();
+   }
+</code></pre>
+<p>Then in the object's inspector, an easy-to-use property drawer is created.</p>
+<p><img src="/images/manual/features/data-table/drawer-process.gif" alt="Drawer Selection"></p>
+<p>When unset, the user is presented with a dropdown of all available tables in the project to select from. A new dropdown is generated with the row names to choose from upon selecting a table. After selecting a row, the type-specific columns of data appear for selection. After all that, the selected data is presented in a locked field.</p>
+<p>By default, values are locked from editing in this view.
+Clicking the lock icon will allow editing the data in the table directly. When Unity serializes this object, only the connection information is serialized.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Clicking the link icon at any time will break all connection information.</p>
+</div>
+<p>All <code>*CellValue</code> structs have <code>Get()</code> and <code>GetUnsafe()</code> methods which return the value stored in the linked Data Table.</p>
+<p>The safer <code>Get()</code> method checks the cached DataTable version number, updating the locally cached value before returning the cached value. The <code>GetUnsafe()</code> method returns the cached value without any checks; thus it is <strong>required</strong> that the first time a value is accessd, the <code>Get()</code> method is used.</p>
+<h2 id="undo-support">Undo Support</h2>
+<p>In the DataTable settings, there is a toggle to turn on the Undo/Redo feature in Unity for a specific table. This will allow Unity's internal serialization system to move back and forth between changes made to the DataTable. However, this has a performance cost as the data serializes with each registered state.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>This is very experimental as a feature; use it at your own risk.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dotBunny/GDX/blob/main/.docfx/manual/features/data-tables.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+      	<div class="grad-bottom"></div>
+      	<div class="footer">
+      		<div class="container">
+      			<span class="pull-right">
+      				<a href="#top">Back to top</a>
+      			</span>
+      			
+      			<span>Built on 2023-07-02 against <a href="https://github.com/dotBunny/GDX/commit/a5e3411ab3700d96c7397283e7489b9e37f9e616"><strong>a5e3411</strong></a>.<br>Generated by <a href="https://github.com/dotBunny/GDX.Dox/"><strong>Dox</strong></a>+<a href="https://dotnet.github.io/docfx/"><strong>DocFX</strong></a>.</span>
+      		</div>
+      	</div>
+      </footer></div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
