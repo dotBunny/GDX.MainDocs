@@ -1,25 +1,25 @@
 ﻿# Summary
 |||
 |:---|:---|
-| Generated on: | 2024-01-01 - 6:31:34 PM |
+| Generated on: | 2024-01-01 - 7:00:22 PM |
 | Parser: | MultiReportParser (689x OpenCoverParser) |
 | Assemblies: | 1 |
 | Classes: | 214 |
 | Files: | 210 |
-| Covered lines: | 7690 |
-| Uncovered lines: | 7436 |
+| Covered lines: | 7687 |
+| Uncovered lines: | 7439 |
 | Coverable lines: | 15126 |
 | Total lines: | 37565 |
-| Line coverage: | 50.8% (7690 of 15126) |
+| Line coverage: | 50.8% (7687 of 15126) |
 | Covered branches: | 0 |
 | Total branches: | 0 |
-| Covered methods: | 802 |
+| Covered methods: | 801 |
 | Total methods: | 1684 |
-| Method coverage: | 47.6% (802 of 1684) |
+| Method coverage: | 47.5% (801 of 1684) |
 
 |**Name**|**Covered**|**Uncovered**|**Coverable**|**Total**|**Line coverage**|**Covered**|**Total**|**Branch coverage**|**Covered**|**Total**|**Method coverage**|
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-|**GDX**|**7690**|**7436**|**15126**|**42533**|**50.8%**|**0**|**0**|****|**802**|**1684**|**47.6%**|
+|**GDX**|**7687**|**7439**|**15126**|**42533**|**50.8%**|**0**|**0**|****|**801**|**1684**|**47.5%**|
 |GDX.AddressablesExtensions|0|33|33|114|0%|0|0||0|5|0%|
 |GDX.ArrayExtensions|73|20|93|230|78.4%|0|0||8|10|80%|
 |GDX.BoxColliderExtensions|0|8|8|40|0%|0|0||0|1|0%|
@@ -61,7 +61,7 @@
 |GDX.Collections.Pooling.GameObjectPool|175|37|212|629|82.5%|0|0||15|15|100%|
 |GDX.Collections.Pooling.ManagedPoolBuilder|22|40|62|164|35.4%|0|0||3|5|60%|
 |GDX.Collections.Pooling.ManagedPools|28|50|78|222|35.8%|0|0||6|12|50%|
-|GDX.Collections.Pooling.SimpleListManagedPool|81|105|186|433|43.5%|0|0||7|14|50%|
+|GDX.Collections.Pooling.SimpleListManagedPool|78|108|186|433|41.9%|0|0||6|14|42.8%|
 |GDX.Collections.SparseSet|1001|59|1060|1838|94.4%|0|0||49|51|96%|
 |GDX.Collections.UnsafeSparseSet|558|49|607|1242|91.9%|0|0||32|37|86.4%|
 |GDX.Collections.UnsafeSparseSetDebugView|0|12|12|1242|0%|0|0||0|2|0%|
